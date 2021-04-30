@@ -1,0 +1,52 @@
+﻿<Application x:Class="SIVIRE_Rehabilita.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Window_Login.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SIVIRE_GrayColor">#999999</Color>
+            <Color x:Key="SIVIRE_DarkGrayColor">#7E7E7E</Color>
+            <Color x:Key="SIVIRE_LightBlueColor">#FF84D6FF</Color>
+            <Color x:Key="SIVIRE_BlueColor">#2B98CE</Color>
+            <Color x:Key="SIVIRE_DarkBlueColor">#005572</Color>
+            <Color x:Key="SIVIRE_LightGreenColor">#FF50F9B7</Color>
+            <Color x:Key="SIVIRE_GreenColor">#00CD7D</Color>
+            <Color x:Key="SIVIRE_DarkGreenColor">#00A264</Color>
+            <Color x:Key="SIVIRE_DarkRedColor">#C30000</Color>
+            <Color x:Key="SIVIRE_TransparentWhiteColor">#A5FFFFFF</Color>
+            <Color x:Key="SIVIRE_TransparentGrayColor">#BD919191</Color>
+
+            
+
+            <SolidColorBrush x:Key="SIVIRE_GrayBrush" Color="{StaticResource SIVIRE_GrayColor}" />
+            <SolidColorBrush x:Key="SIVIRE_DarkGrayBrush" Color="{StaticResource SIVIRE_DarkGrayColor}" />
+            <SolidColorBrush x:Key="SIVIRE_LigthBlueBrush" Color="{StaticResource SIVIRE_LightBlueColor}" />
+            <SolidColorBrush x:Key="SIVIRE_BlueBrush" Color="{StaticResource SIVIRE_BlueColor}" />
+            <SolidColorBrush x:Key="SIVIRE_DarkBlueBrush" Color="{StaticResource SIVIRE_DarkBlueColor}" />
+            <SolidColorBrush x:Key="SIVIRE_LightGreenBrush" Color="{StaticResource SIVIRE_LightGreenColor}" />
+            <SolidColorBrush x:Key="SIVIRE_GreenBrush" Color="{StaticResource SIVIRE_GreenColor}" />
+            <SolidColorBrush x:Key="SIVIRE_DarkGreenBrush" Color="{StaticResource SIVIRE_DarkGreenColor}" />
+            <SolidColorBrush x:Key="SIVIRE_DarkRedBrush" Color="{StaticResource SIVIRE_DarkRedColor}" />
+            <SolidColorBrush x:Key="SIVIRE_TransparentWhiteBrush" Color="{StaticResource SIVIRE_TransparentWhiteColor}" />
+            <SolidColorBrush x:Key="SIVIRE_TransparentGrayBrush" Color="{StaticResource SIVIRE_TransparentGrayColor}" />
+            
+            <LinearGradientBrush x:Key="SIVIRE_GradientBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="{StaticResource SIVIRE_DarkBlueColor}" />
+                <GradientStop Color="{StaticResource SIVIRE_BlueColor}" Offset="1"/>
+            </LinearGradientBrush>
+            
+            <Style TargetType="Button" BasedOn="{StaticResource KinectTileButton}" />
+            
+            <ResourceDictionary.MergedDictionaries>
+                
+                <ResourceDictionary Source="Kinect_Resources/StandardStyles.xaml"/>     
+                
+                <!-- 
+                    Styles that define look and feel of Kinect controls  
+                -->
+                <ResourceDictionary Source="Kinect_Resources/HandPointerStyles.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

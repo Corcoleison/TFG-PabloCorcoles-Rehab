@@ -1,0 +1,54 @@
+﻿<UserControl x:Name="userControl" x:Class="SIVIRE_Rehabilita.UserControls.Menu_ExerciseSelected"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1366" Background="White">
+    <Grid Margin="20">
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="30*"/>
+    		<ColumnDefinition Width="70*"/>
+    	</Grid.ColumnDefinitions>
+
+        <Grid HorizontalAlignment="Left" Margin="0,0,20,0" >
+			<Image x:Name="img_animation" Source="{Binding Exercise.Animation, ElementName=userControl, Mode=OneWay}">
+				<Image.Effect>
+					<DropShadowEffect/>
+				</Image.Effect>
+				<Image.OpacityMask>
+					<RadialGradientBrush>
+						<GradientStop Color="#00000000" Offset="1"/>
+						<GradientStop Color="White" Offset="0.9999"/>
+					</RadialGradientBrush>
+				</Image.OpacityMask>
+			</Image>
+			<Ellipse Height="{Binding ActualHeight, ElementName=img_animation}" Width="{Binding ActualWidth, ElementName=img_user}" Stroke="Black" StrokeThickness="6"/>
+		</Grid>
+
+		<StackPanel Grid.Column="2">
+			<Label Content="{Binding Exercise.Name, ElementName=userControl, Mode=OneWay}" FontSize="40" FontWeight="Bold" />
+			<Label FontSize="40">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Número de repeticiones: "/>
+					<TextBlock Text="{Binding Exercise.NumRepetitions, ElementName=userControl, Mode=OneWay}"/>
+				</StackPanel>
+			</Label>
+			<Label FontSize="40">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Última realización: "/>
+					<TextBlock Text="29/1/2016"/>
+				</StackPanel>
+			</Label>
+			<Label Content="Descripción:...." FontSize="40" />
+		</StackPanel>
+
+		<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Click="start_Click" Width="200" Height="120
+		" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
+			<StackPanel Background="{DynamicResource SIVIRE_DarkGreenBrush}">				
+				<TextBlock Text="&#xe102;" Style="{DynamicResource ButtonIconStyle}"/>
+				<TextBlock Text="Comenzar" Style="{DynamicResource ButtonTextStyle}"/>
+			</StackPanel>
+		</Button>
+    </Grid>
+</UserControl>

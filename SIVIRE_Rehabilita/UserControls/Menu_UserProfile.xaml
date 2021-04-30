@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="SIVIRE_Rehabilita.UserControls.Menu_UserProfile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1000">
+    <StackPanel Background="#FFE8E8E8">
+        <Label Style="{StaticResource DarkHeaderStyle}" Content="Datos Personales"/>
+		<Label Style="{StaticResource DarkNormalTextStyle}" Content="Nombre y apellidos: Alberto Mora Plata"/>
+		<Label Style="{StaticResource DarkNormalTextStyle}">
+			<StackPanel Orientation="Horizontal">
+				<TextBlock Text="Fecha de nacimiento: 21/07/1994"/>
+			</StackPanel>
+		</Label>
+		<Label Style="{StaticResource DarkNormalTextStyle}">
+			<StackPanel Orientation="Horizontal">
+				<TextBlock Text="Sexo: H"/>
+			</StackPanel>
+		</Label>
+		<Label Style="{StaticResource DarkHeaderStyle}" Content="Diagnóstico"/>
+		<Label Style="{StaticResource DarkNormalTextStyle}">
+			<TextBlock>Fue operado el 01/11/2015 del hombro derecho.</TextBlock>
+		</Label>
+    </StackPanel>
+</UserControl>

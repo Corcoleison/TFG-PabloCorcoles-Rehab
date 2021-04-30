@@ -1,0 +1,69 @@
+﻿<UserControl x:Name="userControl" x:Class="SIVIRE_Rehabilita.UserControls.PostureProgressBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:UserControls="clr-namespace:SIVIRE_Rehabilita.UserControls" Width="300" Height="300">
+    <UserControl.Resources>
+        <!--Definimos newCalculatedPercentage como estático para cambiar su valor por código-->
+        <EasingDoubleKeyFrame x:Key="newCalculatedPercentage" KeyTime="0:0:0.4" Value="0"/>
+		<EasingDoubleKeyFrame x:Key="newCheckPercentage" KeyTime="0:0:0.0" Value="0"/>
+        <Storyboard x:Key="advanceAnimation">
+        	<Int32AnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Radius)" Storyboard.TargetName="circularProgress">
+        		<EasingInt32KeyFrame KeyTime="0:0:0.2" Value="125"/>
+        		<EasingInt32KeyFrame KeyTime="0:0:0.4" Value="127"/>
+        	</Int32AnimationUsingKeyFrames>
+        	<Int32AnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.StrokeThickness)" Storyboard.TargetName="circularProgress">
+        		<EasingInt32KeyFrame KeyTime="0:0:0.2" Value="22"/>
+        		<EasingInt32KeyFrame KeyTime="0:0:0.4" Value="25"/>
+        	</Int32AnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Percentage)" Storyboard.TargetName="circularProgress">
+                <StaticResource ResourceKey="newCalculatedPercentage" />
+            </DoubleAnimationUsingKeyFrames>
+        	<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.SegmentColor).(SolidColorBrush.Color)" Storyboard.TargetName="circularProgress">
+        		<EasingColorKeyFrame KeyTime="0:0:0.2" Value="#FF84D6FF"/>
+        		<EasingColorKeyFrame KeyTime="0:0:0.4" Value="#FF2828C5"/>
+        	</ColorAnimationUsingKeyFrames>
+        </Storyboard>
+		<Storyboard x:Key="advanceAnimation_CheckPosture">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Percentage)" Storyboard.TargetName="checkPosture1">
+                <StaticResource ResourceKey="newCheckPercentage" />
+            </DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Percentage)" Storyboard.TargetName="checkPosture2">
+                <StaticResource ResourceKey="newCheckPercentage" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+		<Storyboard x:Key="advanceAnimation_PostureProgress">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Percentage)" Storyboard.TargetName="postureProgress1">
+                <StaticResource ResourceKey="newCalculatedPercentage" />
+            </DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UserControls:CircularProgressBar.Percentage)" Storyboard.TargetName="postureProgress2">
+                <StaticResource ResourceKey="newCalculatedPercentage" />
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <Grid>		
+        <Viewbox>
+            <Grid>
+				<Ellipse Height="230" Width="230" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="{DynamicResource SIVIRE_TransparentWhiteBrush}" />
+                <UserControls:CircularProgressBar Percentage="100" SegmentColor="{DynamicResource SIVIRE_TransparentGrayBrush}" StrokeThickness="25" Radius="127" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				<UserControls:CircularProgressBar x:Name="circularProgress" Percentage="0" StrokeThickness="25" Radius="127" HorizontalAlignment="Center" VerticalAlignment="Center" SegmentColor="#FF2828C5" />
+				<UserControls:CircularProgressBar x:Name="postureProgress1" Percentage="0" SegmentColor="{DynamicResource SIVIRE_LightGreenBrush}" StrokeThickness="70" Radius="35" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				<UserControls:CircularProgressBar x:Name="postureProgress2" Percentage="0" StrokeThickness="50" Radius="90" HorizontalAlignment="Center" VerticalAlignment="Center" SegmentColor="{DynamicResource SIVIRE_LightGreenBrush}" />
+				<UserControls:CircularProgressBar x:Name="checkPosture1" Percentage="0" StrokeThickness="70" Radius="35" HorizontalAlignment="Center" VerticalAlignment="Center" SegmentColor="{DynamicResource SIVIRE_BlueBrush}" />
+				<UserControls:CircularProgressBar x:Name="checkPosture2" Percentage="0" SegmentColor="{DynamicResource SIVIRE_BlueBrush}" StrokeThickness="50" Radius="90" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				
+				
+				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="3" Radius="116" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="5" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				
+				<Label x:Name="lbl_postureCountdown" Content="0" FontSize="130" Height="200" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
+					<Label.Effect>
+						<DropShadowEffect/>
+					</Label.Effect>
+				</Label>
+				<Label Content="" FontSize="35" FontWeight="Bold" Height="100" Margin="63.376,28.999,66.293,170.999" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" />
+            </Grid>
+        </Viewbox>
+    </Grid>
+</UserControl>

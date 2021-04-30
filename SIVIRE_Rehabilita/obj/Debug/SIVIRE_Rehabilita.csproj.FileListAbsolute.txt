@@ -1,0 +1,313 @@
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe.config
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.pdb
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Controls.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Effects.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\System.Windows.Interactivity.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.xml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojResolveAssemblyReference.cache
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\HandPointerStyles.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\StandardStyles.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_Login.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\App.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_Login.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_Menu.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\App.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_Content.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.cache
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.lref
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_Menu.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.baml
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.g.resources
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.Properties.Resources.resources
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.GenerateResource.Cache
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
+D:\Rep_Bitbucket\Rehabilita\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe.config
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojResolveAssemblyReference.cache
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\HandPointerStyles.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\StandardStyles.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_Login.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\App.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_Login.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_Menu.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\App.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_Content.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.cache
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.lref
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.pdb
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Speech.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_Menu.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.baml
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.g.resources
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.Properties.Resources.resources
+C:\Users\Juanen\Documents\Development\EmeRehab\Desktop\Rehabilita v1.0\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.GenerateResource.Cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe.config
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.pdb
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.xml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojAssemblyReference.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\HandPointerStyles.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Kinect_Resources\StandardStyles.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_Login.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\App.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Settings.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_UserProfile.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_Login.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_Menu.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Dialog_Confirm.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExerciseSelected.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_Main.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\CircularProgressBar.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\EquilibriumScale.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\ErrorMsgPanel.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\Menu_ExercisesScrollViewer.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideBody.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\GuideMsgPanel.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\App.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_Content.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita_MarkupCompile.lref
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_Menu.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\Window_MonitorExercise.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\PostureProgressBar.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\UserControls\RepetitionsProgressBar.baml
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.g.resources
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.Properties.Resources.resources
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.GenerateResource.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.CoreCompileInputs.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.CopyComplete
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb

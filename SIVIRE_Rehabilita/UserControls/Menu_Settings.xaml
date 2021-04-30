@@ -1,0 +1,16 @@
+﻿<UserControl x:Name="userControl" x:Class="SIVIRE_Rehabilita.UserControls.Menu_Settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1000">
+    <Grid>
+		<StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,30,0">
+			<CheckBox x:Name="cbox_gestures" Content="Activar Gestos" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Gestures_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
+			<CheckBox x:Name="cbox_sound" Content="Activar Sonido" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Sound_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
+			<CheckBox x:Name="cbox_readMsg" Content="Activar Lectura de Mensajes de guía" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
+            <CheckBox x:Name="cbox_readErrorMsg" Content="Activar Lectura de Mensajes de error" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadErrorMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" />			
+		</StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,15 @@
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Rehabilita_Test.dll
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Rehabilita_Test.pdb
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Microsoft.Kinect.dll
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\SIVIRE_Rehabilita.exe
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\SIVIRE_Rehabilita.pdb
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Microsoft.Kinect.xml
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\obj\Debug\Rehabilita_Test.csprojResolveAssemblyReference.cache
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\obj\Debug\Rehabilita_Test.dll
+D:\Rep_Bitbucket\Rehabilita\Rehabilita_Test\obj\Debug\Rehabilita_Test.pdb
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.csprojAssemblyReference.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.csproj.CoreCompileInputs.cache
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.dll
+E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.pdb

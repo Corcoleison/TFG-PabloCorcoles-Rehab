@@ -1,0 +1,32 @@
+﻿<UserControl x:Name="userControl" x:Class="SIVIRE_Rehabilita.UserControls.Dialog_Confirm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" MinHeight="300" MinWidth="600"
+             d:DesignHeight="300" d:DesignWidth="600" BorderBrush="White" BorderThickness="3" Background="{DynamicResource SIVIRE_GradientBrush}">
+	<UserControl.Effect>
+		<DropShadowEffect ShadowDepth="10"/>
+	</UserControl.Effect>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="130"/>
+		</Grid.RowDefinitions>
+		
+		<Label Grid.Row="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="48" Margin="20,0" Foreground="White">
+			<TextBlock Text="{Binding Msg, ElementName=userControl}" TextWrapping="Wrap" TextAlignment="Center"/>
+		</Label>
+		<Button x:Name="btn_Ok" Grid.Row="1" Style="{DynamicResource OkButtonStyle}" Height="130" Margin="0,0,200,0" HorizontalAlignment="Center" Width="130" Click="Ok_Click">
+			<Button.Effect>
+				<DropShadowEffect/>
+			</Button.Effect>
+		</Button>
+		<Button x:Name="btn_Cancel" Grid.Row="1" Style="{DynamicResource CancelButtonStyle}" Height="130" Margin="200,0,0,0" HorizontalAlignment="Center" Width="130" Click="Cancel_Click">
+			<Button.Effect>
+				<DropShadowEffect/>
+			</Button.Effect>
+		</Button>
+	</Grid>
+
+</UserControl>
