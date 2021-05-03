@@ -158,25 +158,25 @@ namespace Rehabilita_Test
                 messagesPosture2.AddRange(messages);
                 messagesPosture2.Add(new Message("Levanta el brazo derecho un poco más", rightArm, MessageType.Guide));
 
-                EndPosture posture2 = new EndPosture("Brazo derecho levantado", XMLParser.loadSkeleton_Old("\\skeleton_2.xml"), 0.1, messagesPosture2);
+                EndPosture posture2 = new EndPosture("Brazo derecho levantado", XMLParser.loadSkeleton_Old("\\skeleton_2.xml"), 0.1, messagesPosture2, false);
                     List<Message> msgsTransitions = new List<Message>();
                     msgsTransitions.Add(new Message("Levanta el brazo horizontalmente", rightArm, MessageType.Guide));
                     List<Posture> transitions = new List<Posture>();
-                    transitions.Add(new TransitionPosture("Brazo derecho un poco levantado en horizontal", XMLParser.loadSkeleton_Old("\\skeleton_10.xml"), 0.1, msgsTransitions));
+                    transitions.Add(new TransitionPosture("Brazo derecho un poco levantado en horizontal", XMLParser.loadSkeleton_Old("\\skeleton_10.xml"), 0.1, msgsTransitions, false));
                 posture2.Transition = transitions;
 
 
             List<Message> messagesPosture3 = new List<Message>();
                 messagesPosture3.AddRange(messages);
-                messagesPosture3.Add(new Message("Ahora levanta el brazo izquierdo", lefttArm, MessageType.Guide));
+                messagesPosture3.Add(new Message("Levanta el brazo izquierdo", lefttArm, MessageType.Guide));
 
 
 
-                postures.Add(new EndPosture("Posicion normal", XMLParser.loadSkeleton_Old("\\skeleton_1.xml"), 0.1, messagesPosture1));
+                postures.Add(new EndPosture("Posicion normal", XMLParser.loadSkeleton_Old("\\skeleton_1.xml"), 0.1, messagesPosture1, false));
             postures.Add(posture2);
-            postures.Add(new EndPosture("Ambos brazos levantados", XMLParser.loadSkeleton_Old("\\skeleton_3.xml"), 0.1, messagesPosture3));
+            postures.Add(new EndPosture("Ambos brazos levantados", XMLParser.loadSkeleton_Old("\\skeleton_3.xml"), 0.1, messagesPosture3, false));
 
-            expect_exercise = new Exercise("Ejercicio Test", 2, postures);
+            expect_exercise = new Exercise("Ejercicio Test", 2, postures, false);
             real_exercise = XMLParser.loadExercise("\\ejercicioTest.xml");
 
             Assert.AreEqual(expect_exercise.Name, real_exercise.Name);

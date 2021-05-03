@@ -13,7 +13,7 @@
 		</Grid.ColumnDefinitions>
 
 		<StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,30,0">
-			<Label Style="{StaticResource HeaderStyle}" Content="Tablas de ejercicios asignadas"/>
+			<Label Style="{StaticResource HeaderStyle}" Content="Tablas de ejercicios"/>
 			<Grid VerticalAlignment="Bottom">
 				<ItemsControl x:Name="itemsControl" ItemTemplate="{StaticResource RoutineItemTemplate}" ButtonBase.Click="routine_Click" Background="#BFFFFFFF" ItemsSource="{Binding Routines, ElementName=userControl}">
 					<ItemsControl.ItemsPanel>
