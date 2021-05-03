@@ -378,7 +378,7 @@ namespace SIVIRE_Rehabilita
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            this.showDialog("¿Quiere abandonar la aplicación?", null);
+            this.showDialog("¿Abandonar la aplicación?", null);
         }
 
         #endregion
