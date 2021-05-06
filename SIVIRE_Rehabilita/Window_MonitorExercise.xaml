@@ -7,10 +7,11 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1295*"/>
+            <ColumnDefinition Width="71*"/>
             <ColumnDefinition Width="0"/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Margin="0,90,3.4,0" Background="#FF980000" Visibility="Hidden" Grid.ColumnSpan="2">
+        <Grid Grid.Column="0" Margin="0,90,3.4,0" Background="#FF980000" Visibility="Hidden" Grid.ColumnSpan="3">
             <Grid.OpacityMask>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <LinearGradientBrush.RelativeTransform>
@@ -30,7 +31,7 @@
                 </LinearGradientBrush>
             </Grid.OpacityMask>
         </Grid>
-        <Border x:Name="border" BorderBrush="White" BorderThickness="5" Margin="1,0,2.4,0" Grid.Column="1">
+        <Border x:Name="border" BorderBrush="White" BorderThickness="5" Margin="1,0,2.4,0" Grid.Column="1" Grid.ColumnSpan="2">
             <Border.Effect>
                 <DropShadowEffect/>
             </Border.Effect>
@@ -58,7 +59,7 @@
                 </Grid>
             </Viewbox>
         </Border>
-        <k:KinectRegion x:Name="kinectRegion" Margin="0,295,5.4,10" Grid.Column="1">
+        <k:KinectRegion x:Name="kinectRegion" Margin="0,295,5.4,10" Grid.Column="1" Grid.ColumnSpan="2">
             <Grid>
                 <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Bottom" Height="130" Width="130" Click="Back_Click" Margin="0,345,466.8,0" HorizontalAlignment="Left" />
                 <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
@@ -69,8 +70,31 @@
         </k:KinectRegion>
         <UserControls:RepetitionsProgressBar x:Name="repetitionsProgressBar" Grid.Column="1" Height="200" Width="200" VerticalAlignment="Bottom" NumRepetitions="{Binding ExerciseToMonitor.NumRepetitions, ElementName=window, Mode=OneTime}" HorizontalAlignment="Left" Margin="29,0,0,273"/>
         <UserControls:PostureProgressBar x:Name="postureProgressBar" Grid.Column="1" Height="200" Width="200" Margin="29,0,0,473" VerticalAlignment="Bottom" NumPostures="{Binding ExerciseToMonitor.Postures.Count, ElementName=window, Mode=OneTime}" PostureProgress="{Binding ExerciseToMonitor.CurrentPosture.CompletedPercentage, ElementName=window, Mode=OneWay}" CurrentPosture="{Binding ExerciseToMonitor.IndexCurrentPosture, ElementName=window}" CheckPostureProgress="{Binding ExerciseToMonitor.CurrentPosture.FinalCheckPercentage, ElementName=window, Mode=OneWay}" HorizontalAlignment="Left"/>
-        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" Margin="0,0,3.4,0" Grid.ColumnSpan="2" />
-        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,3.4,0" Width="Auto" Grid.ColumnSpan="2" />
-        <UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="430,0,436.4,0" />
+        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" Margin="0,0,3.4,0" Grid.ColumnSpan="3" />
+        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,3.4,0" Width="Auto" Grid.ColumnSpan="3" />
+        <UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="430,0,365.4,0" />
+        <StackPanel x:Name="confirmRegion"  Grid.ColumnSpan="3" HorizontalAlignment="Right" Width="1364" Height="758" VerticalAlignment="Top" Margin="0,0,2.4,0">
+            <StackPanel.Background>
+                <SolidColorBrush Color="#E52B98CE"/>
+            </StackPanel.Background>
+            <StackPanel  Height="597" Margin="107,80,0,0" Background="#E5005572" HorizontalAlignment="Left" Width="1157">
+                <Border BorderBrush="#FF045B79" BorderThickness="10" CornerRadius="12" MinHeight="90" VerticalAlignment="Top" Height="596" Margin="0,0,-0.2,0">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="1"/>
+                    </Border.Effect>
+                    <Grid>
+                        <Label Content="Ejercicio:" Foreground="White" FontSize="72" Margin="0,34.4,668.2,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
+                        <Label x:Name="exerciseName" Foreground="White" FontSize="72" Margin="0,34,369.6,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
+                        <Label x:Name="exerciseDes" Foreground="White" FontSize="50" Margin="0,232,732.6,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
+
+                        <GridSplitter Margin="0,0,551.6,108.8" Width="7" Height="236" VerticalAlignment="Bottom"/>
+                        <Image x:Name="exerciseImg" Height="236" Margin="739,0,99.6,108.8" VerticalAlignment="Bottom"/>
+                    </Grid>
+                </Border>
+
+            </StackPanel>
+
+        </StackPanel>
+
     </Grid>
 </Window>

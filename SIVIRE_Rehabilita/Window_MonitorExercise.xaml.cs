@@ -95,6 +95,11 @@ namespace SIVIRE_Rehabilita
 
                 // Kinect Region
                 this.kinectRegion.KinectSensor = this.kinectSensor;
+
+                //Menu confirmation
+                this.exerciseName.Content = this.exercise.Name;
+                this.exerciseDes.Content = this.exercise.Name;
+                this.exerciseImg.Source = this.exercise.Animation;
             }
         }
 
