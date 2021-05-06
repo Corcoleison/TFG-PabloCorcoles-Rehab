@@ -96,10 +96,7 @@ namespace SIVIRE_Rehabilita
                 // Kinect Region
                 this.kinectRegion.KinectSensor = this.kinectSensor;
 
-                //Menu confirmation
-                this.exerciseName.Content = this.exercise.Name;
-                this.exerciseDes.Content = this.exercise.Name;
-                this.exerciseImg.Source = this.exercise.Animation;
+                
             }
         }
 
@@ -274,6 +271,24 @@ namespace SIVIRE_Rehabilita
 
         private void Resume_Click(object sender, RoutedEventArgs e)
         {
+            this.isExcercisePaused = false;
+        }
+
+        private void Window_Confirm()
+        {
+            this.confirmRegion.Visibility = Visibility.Visible;
+            this.isExcercisePaused = true;
+            List<Message> aux = new List<Message>();
+            this.writeMessages(aux);
+            //Menu confirmation
+            this.exerciseName.Content = this.exercise.Name;
+            this.exerciseDes.Content = this.exercise.Name;
+            this.exerciseImg.Source = this.exercise.Animation;
+        }
+
+        private void Confirm_Click(object sender, RoutedEventArgs e)
+        {
+            this.confirmRegion.Visibility = Visibility.Hidden;
             this.isExcercisePaused = false;
         }
 

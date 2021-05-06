@@ -84,11 +84,15 @@
                     </Border.Effect>
                     <Grid>
                         <Label Content="Ejercicio:" Foreground="White" FontSize="72" Margin="0,34.4,668.2,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
-                        <Label x:Name="exerciseName" Foreground="White" FontSize="72" Margin="0,34,369.6,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
-                        <Label x:Name="exerciseDes" Foreground="White" FontSize="50" Margin="0,232,732.6,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
-
+                        <Label x:Name="exerciseName" Foreground="White" FontSize="72" Margin="0,34,40.6,0" HorizontalAlignment="Right" Width="623" Height="121" VerticalAlignment="Top"/>
+                        <Label x:Name="exerciseDes" Foreground="White" FontSize="50" Margin="0,232,605.6,0" HorizontalAlignment="Right" Width="421" Height="236" VerticalAlignment="Top"/>
                         <GridSplitter Margin="0,0,551.6,108.8" Width="7" Height="236" VerticalAlignment="Bottom"/>
                         <Image x:Name="exerciseImg" Height="236" Margin="739,0,99.6,108.8" VerticalAlignment="Bottom"/>
+                        <Button x:Name="btn_Ok" Style="{DynamicResource OkButtonStyle}" Margin="1071,-49,-63.4,495.8" HorizontalAlignment="Left" Width="130" Click="Confirm_Click" VerticalAlignment="Stretch">
+                            <Button.Effect>
+                                <DropShadowEffect/>
+                            </Button.Effect>
+                        </Button>
                     </Grid>
                 </Border>
 
