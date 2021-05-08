@@ -5,36 +5,38 @@
         xmlns:UserControls="clr-namespace:SIVIRE_Rehabilita.UserControls" x:Name="window" x:Class="SIVIRE_Rehabilita.Window_MonitorExercise" 
         WindowStyle="None" Height="768" Width="1366" Loaded="Window_Loaded" WindowState="Maximized" Closed="Window_Closed" ResizeMode="NoResize" Background="{DynamicResource SIVIRE_GradientBrush}">
     <Grid>
-    	<Grid.ColumnDefinitions>
-    		<ColumnDefinition Width="*"/>
-    		<ColumnDefinition Width="130"/>
-    	</Grid.ColumnDefinitions>
-		<Grid Grid.Column="0" Margin="0,90,0,0" Background="#FF980000" Visibility="Hidden">
-			<Grid.OpacityMask>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<LinearGradientBrush.RelativeTransform>
-						<TransformGroup>
-							<ScaleTransform CenterY="0.5" CenterX="0.5"/>
-							<SkewTransform CenterY="0.5" CenterX="0.5"/>
-							<RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
-							<TranslateTransform/>
-						</TransformGroup>
-					</LinearGradientBrush.RelativeTransform>
-					<GradientStop Color="#BF000000" Offset="0.046"/>
-					<GradientStop/>
-					<GradientStop Color="#00BFBFBF" Offset="1"/>
-					<GradientStop Color="#BF000000" Offset="0.949"/>
-					<GradientStop Color="Black" Offset="0.25"/>
-					<GradientStop Color="Black" Offset="0.75"/>
-				</LinearGradientBrush>
-			</Grid.OpacityMask>
-		</Grid>
-		<Border x:Name="border" BorderBrush="White" BorderThickness="5">
-			<Border.Effect>
-				<DropShadowEffect/>
-			</Border.Effect>
-			<Viewbox Grid.Column="0" Stretch="Fill" Margin="0,80,0,0" >
-        		<!--Viewbox.OpacityMask>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="0,90,3.4,0" Background="#FF980000" Visibility="Hidden" Grid.ColumnSpan="2">
+            <Grid.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#BF000000" Offset="0.046"/>
+                    <GradientStop/>
+                    <GradientStop Color="#00BFBFBF" Offset="1"/>
+                    <GradientStop Color="#BF000000" Offset="0.949"/>
+                    <GradientStop Color="Black" Offset="0.25"/>
+                    <GradientStop Color="Black" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Grid.OpacityMask>
+        </Grid>
+        <Border x:Name="border" BorderBrush="White" BorderThickness="5" Margin="1,0,2.4,0" Grid.Column="1">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+            <Viewbox Grid.Column="0" Stretch="Fill" Margin="0,80,0,0" >
+                <!--Viewbox.OpacityMask>
         			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<LinearGradientBrush.RelativeTransform>
 							<TransformGroup>
@@ -50,26 +52,55 @@
 						<GradientStop Color="Black" Offset="0.25"/>
 					</LinearGradientBrush>
         		</Viewbox.OpacityMask-->
-				<Grid>
-					<Image x:Name="img_ColorFrame"/>                
-					<Image x:Name="posture_Skeleton" />
-					<Image x:Name="user_Skeleton"/>
-				</Grid>
-			</Viewbox>
-		</Border>
-        <k:KinectRegion x:Name="kinectRegion" Grid.Column="2">
+                <Grid>
+                    <Image x:Name="img_ColorFrame"/>
+                    <Image x:Name="posture_Skeleton" />
+                    <Image x:Name="user_Skeleton"/>
+                </Grid>
+            </Viewbox>
+        </Border>
+        <UserControls:RepetitionsProgressBar x:Name="repetitionsProgressBar" Grid.Column="1" Height="200" Width="200" VerticalAlignment="Bottom" NumRepetitions="{Binding ExerciseToMonitor.NumRepetitions, ElementName=window, Mode=OneTime}" HorizontalAlignment="Left" Margin="29,0,0,350"/>
+        <UserControls:PostureProgressBar x:Name="postureProgressBar" Grid.Column="1" Height="200" Width="200" Margin="29,0,0,550" VerticalAlignment="Bottom" NumPostures="{Binding ExerciseToMonitor.Postures.Count, ElementName=window, Mode=OneTime}" PostureProgress="{Binding ExerciseToMonitor.CurrentPosture.CompletedPercentage, ElementName=window, Mode=OneWay}" CurrentPosture="{Binding ExerciseToMonitor.IndexCurrentPosture, ElementName=window}" CheckPostureProgress="{Binding ExerciseToMonitor.CurrentPosture.FinalCheckPercentage, ElementName=window, Mode=OneWay}" HorizontalAlignment="Left"/>
+        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" Margin="0,0,3.4,0" Grid.ColumnSpan="2" />
+        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,3.4,0" Width="Auto" Grid.ColumnSpan="2" />
+        <UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="466,0,400.4,0" />
+        <k:KinectRegion x:Name="kinectRegion" Margin="0,10,5.4,10" Grid.Column="1">
             <Grid>
-				<Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Back_Click" />
-				<StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
-					<Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" />
-					<Button x:Name="btn_Play" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" />
-				</StackPanel>                
+                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Bottom" Height="130" Width="130" Click="Back_Click" Margin="0,345,466.8,0" HorizontalAlignment="Left" />
+                <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                    <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" />
+                    <Button x:Name="btn_Play" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" />
+                </StackPanel>
+                <StackPanel x:Name="confirmRegion" Visibility="Hidden" Grid.ColumnSpan="4" HorizontalAlignment="Left" Width="1621" Margin="0,5,-254.6,-178">
+                    <StackPanel.Background>
+                        <SolidColorBrush Color="#E52B98CE"/>
+                    </StackPanel.Background>
+                    <StackPanel  Height="597" Margin="0,150,0,0" Background="#E5005572" HorizontalAlignment="Center" Width="1157" VerticalAlignment="Center">
+                        <Border BorderBrush="#FF045B79" BorderThickness="10" CornerRadius="12" MinHeight="90" VerticalAlignment="Top" Height="596" Margin="0,0,-0.2,0">
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="1"/>
+                            </Border.Effect>
+                            <Grid>
+                                <Label Content="Ejercicio:" Foreground="White" FontSize="72" Margin="0,34.4,668.2,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
+                                <Label x:Name="exerciseName" Foreground="White" FontSize="72" Margin="0,34,40.6,0" HorizontalAlignment="Right" Width="623" Height="121" VerticalAlignment="Top"/>
+                                <Label x:Name="exerciseDes" Foreground="White" FontSize="50" Margin="0,232,605.6,0" HorizontalAlignment="Right" Width="421" Height="236" VerticalAlignment="Top"/>
+                                <GridSplitter Margin="0,0,551.6,108.8" Width="7" Height="236" VerticalAlignment="Bottom"/>
+                                <Image x:Name="exerciseImg" Height="236" Margin="739,0,99.6,108.8" VerticalAlignment="Bottom"/>
+                                <Button x:Name="btn_Ok" Style="{DynamicResource OkButtonStyle}" Margin="1071,-49,-63.4,495.8" HorizontalAlignment="Left" Width="130" Click="Confirm_Click" VerticalAlignment="Stretch">
+                                    <Button.Effect>
+                                        <DropShadowEffect/>
+                                    </Button.Effect>
+                                </Button>
+                                <Button x:Name="btn_Cancel" Style="{DynamicResource CancelButtonStyle}" Margin="1071,526,-63.4,-79.2" HorizontalAlignment="Left" Width="130" Click="Back_Click" VerticalAlignment="Stretch">
+                                    <Button.Effect>
+                                        <DropShadowEffect/>
+                                    </Button.Effect>
+                                </Button>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>
             </Grid>
         </k:KinectRegion>
-        <UserControls:RepetitionsProgressBar x:Name="repetitionsProgressBar" Grid.Column="0" Height="200" Width="200" VerticalAlignment="Bottom" NumRepetitions="{Binding ExerciseToMonitor.NumRepetitions, ElementName=window, Mode=OneTime}" HorizontalAlignment="Left" Margin="10,0,0,10"/>
-		<UserControls:PostureProgressBar x:Name="postureProgressBar" Grid.Column="0" Height="200" Width="200" Margin="10,0,0,210" VerticalAlignment="Bottom" NumPostures="{Binding ExerciseToMonitor.Postures.Count, ElementName=window, Mode=OneTime}" PostureProgress="{Binding ExerciseToMonitor.CurrentPosture.CompletedPercentage, ElementName=window, Mode=OneWay}" CurrentPosture="{Binding ExerciseToMonitor.IndexCurrentPosture, ElementName=window}" CheckPostureProgress="{Binding ExerciseToMonitor.CurrentPosture.FinalCheckPercentage, ElementName=window, Mode=OneWay}" HorizontalAlignment="Left"/>
-        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" />
-        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,0,0" Width="Auto" />
-		<UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
-	</Grid>
+    </Grid>
 </Window>

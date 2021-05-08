@@ -76,7 +76,10 @@ namespace SIVIRE_Rehabilita
 
             // Display the drawing using our image control
             posture_Skeleton.Source = new DrawingImage(this.postureDrawingGroup);
-            user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);            
+            user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);
+
+            //Confirm Windows
+            Window_Confirm();
         }
 
         private void initializeKinect()
@@ -95,6 +98,8 @@ namespace SIVIRE_Rehabilita
 
                 // Kinect Region
                 this.kinectRegion.KinectSensor = this.kinectSensor;
+
+                
             }
         }
 
@@ -269,6 +274,24 @@ namespace SIVIRE_Rehabilita
 
         private void Resume_Click(object sender, RoutedEventArgs e)
         {
+            this.isExcercisePaused = false;
+        }
+
+        private void Window_Confirm()
+        {
+            this.confirmRegion.Visibility = Visibility.Visible;
+            this.isExcercisePaused = true;
+            List<Message> aux = new List<Message>();
+            this.writeMessages(aux);
+            //Menu confirmation
+            this.exerciseName.Content = this.exercise.Name;
+            this.exerciseDes.Content = this.exercise.Name;
+            this.exerciseImg.Source = this.exercise.Animation;
+        }
+
+        private void Confirm_Click(object sender, RoutedEventArgs e)
+        {
+            this.confirmRegion.Visibility = Visibility.Hidden;
             this.isExcercisePaused = false;
         }
 
