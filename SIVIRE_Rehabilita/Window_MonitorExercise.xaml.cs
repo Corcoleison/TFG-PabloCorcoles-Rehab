@@ -285,7 +285,7 @@ namespace SIVIRE_Rehabilita
             this.writeMessages(aux);
             //Menu confirmation
             this.exerciseName.Content = this.exercise.Name;
-            this.exerciseDes.Content = this.exercise.Name;
+            this.exerciseDes.Content = "Descripción:...";
             this.exerciseImg.Source = this.exercise.Animation;
         }
 
