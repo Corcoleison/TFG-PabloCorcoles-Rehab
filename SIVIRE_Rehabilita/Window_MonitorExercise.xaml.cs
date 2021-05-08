@@ -76,7 +76,10 @@ namespace SIVIRE_Rehabilita
 
             // Display the drawing using our image control
             posture_Skeleton.Source = new DrawingImage(this.postureDrawingGroup);
-            user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);            
+            user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);
+
+            //Confirm Windows
+            Window_Confirm();
         }
 
         private void initializeKinect()
