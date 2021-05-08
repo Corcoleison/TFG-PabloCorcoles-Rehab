@@ -7,11 +7,11 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="1295*"/>
-            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0"/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Margin="0,90,3.4,0" Background="#FF980000" Visibility="Hidden" Grid.ColumnSpan="3">
+        <Grid Grid.Column="0" Margin="0,90,3.4,0" Background="#FF980000" Visibility="Hidden" Grid.ColumnSpan="2">
             <Grid.OpacityMask>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <LinearGradientBrush.RelativeTransform>
@@ -31,7 +31,7 @@
                 </LinearGradientBrush>
             </Grid.OpacityMask>
         </Grid>
-        <Border x:Name="border" BorderBrush="White" BorderThickness="5" Margin="1,0,2.4,0" Grid.Column="1" Grid.ColumnSpan="2">
+        <Border x:Name="border" BorderBrush="White" BorderThickness="5" Margin="1,0,2.4,0" Grid.Column="1">
             <Border.Effect>
                 <DropShadowEffect/>
             </Border.Effect>
@@ -59,12 +59,12 @@
                 </Grid>
             </Viewbox>
         </Border>
-        <UserControls:RepetitionsProgressBar x:Name="repetitionsProgressBar" Grid.Column="1" Height="200" Width="200" VerticalAlignment="Bottom" NumRepetitions="{Binding ExerciseToMonitor.NumRepetitions, ElementName=window, Mode=OneTime}" HorizontalAlignment="Left" Margin="29,0,0,273"/>
-        <UserControls:PostureProgressBar x:Name="postureProgressBar" Grid.Column="1" Height="200" Width="200" Margin="29,0,0,473" VerticalAlignment="Bottom" NumPostures="{Binding ExerciseToMonitor.Postures.Count, ElementName=window, Mode=OneTime}" PostureProgress="{Binding ExerciseToMonitor.CurrentPosture.CompletedPercentage, ElementName=window, Mode=OneWay}" CurrentPosture="{Binding ExerciseToMonitor.IndexCurrentPosture, ElementName=window}" CheckPostureProgress="{Binding ExerciseToMonitor.CurrentPosture.FinalCheckPercentage, ElementName=window, Mode=OneWay}" HorizontalAlignment="Left"/>
-        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" Margin="0,0,3.4,0" Grid.ColumnSpan="3" />
-        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,3.4,0" Width="Auto" Grid.ColumnSpan="3" />
-        <UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="430,0,365.4,0" />
-        <k:KinectRegion x:Name="kinectRegion" Margin="0,10,5.4,10" Grid.Column="1" Grid.ColumnSpan="2">
+        <UserControls:RepetitionsProgressBar x:Name="repetitionsProgressBar" Grid.Column="1" Height="200" Width="200" VerticalAlignment="Bottom" NumRepetitions="{Binding ExerciseToMonitor.NumRepetitions, ElementName=window, Mode=OneTime}" HorizontalAlignment="Left" Margin="29,0,0,350"/>
+        <UserControls:PostureProgressBar x:Name="postureProgressBar" Grid.Column="1" Height="200" Width="200" Margin="29,0,0,550" VerticalAlignment="Bottom" NumPostures="{Binding ExerciseToMonitor.Postures.Count, ElementName=window, Mode=OneTime}" PostureProgress="{Binding ExerciseToMonitor.CurrentPosture.CompletedPercentage, ElementName=window, Mode=OneWay}" CurrentPosture="{Binding ExerciseToMonitor.IndexCurrentPosture, ElementName=window}" CheckPostureProgress="{Binding ExerciseToMonitor.CurrentPosture.FinalCheckPercentage, ElementName=window, Mode=OneWay}" HorizontalAlignment="Left"/>
+        <UserControls:GuideMsgPanel x:Name="guideMsgPanel" Grid.Column="0" VerticalAlignment="Top" Width="Auto" Margin="0,0,3.4,0" Grid.ColumnSpan="2" />
+        <UserControls:ErrorMsgPanel x:Name="errorMsgPanel" Grid.Column="0" VerticalAlignment="Top" Margin="0,-90,3.4,0" Width="Auto" Grid.ColumnSpan="2" />
+        <UserControls:EquilibriumScale x:Name="equilibriumScale" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="466,0,400.4,0" />
+        <k:KinectRegion x:Name="kinectRegion" Margin="0,10,5.4,10" Grid.Column="1">
             <Grid>
                 <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Bottom" Height="130" Width="130" Click="Back_Click" Margin="0,345,466.8,0" HorizontalAlignment="Left" />
                 <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
