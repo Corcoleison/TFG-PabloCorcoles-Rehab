@@ -12,6 +12,7 @@ using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Speech.Synthesis;
+using System.Windows.Controls;
 
 namespace SIVIRE_Rehabilita
 {
@@ -73,13 +74,17 @@ namespace SIVIRE_Rehabilita
             // Create the drawing group we'll use for drawing
             this.postureDrawingGroup = new DrawingGroup();
             this.userDrawingGroup = new DrawingGroup();
+            
 
             // Display the drawing using our image control
             posture_Skeleton.Source = new DrawingImage(this.postureDrawingGroup);
             user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);
+            
+            
 
             //Confirm Windows
             Window_Confirm();
+            
         }
 
         private void initializeKinect()
@@ -99,7 +104,49 @@ namespace SIVIRE_Rehabilita
                 // Kinect Region
                 this.kinectRegion.KinectSensor = this.kinectSensor;
 
+
                 
+            }
+        }
+
+        void drawCascadeSkeletons()
+        {
+            var listPostures = ExerciseToMonitor.Postures;
+            DrawingGroup[] cascadeDrawingSkeletonList = new DrawingGroup[listPostures.Count];
+            //cascadeDrawingSkeletonList.InsertRange(listPostures.Count, cascadeDrawingSkeletonList);
+            var i = 0;
+            foreach (var posture in listPostures)
+            {
+                var selectedSkeletonImage = (Image)this.FindName("cascade_Skeleton"+i);
+                if (selectedSkeletonImage != null)
+                {
+                    cascadeDrawingSkeletonList[i] = new DrawingGroup();
+                    selectedSkeletonImage.Source = new DrawingImage(cascadeDrawingSkeletonList[i]);
+                    var skeletonPosture = posture.Skeleton;
+                    //var sensorKinect = this.kinectSensor;
+                    posture.Draw(skeletonPosture, cascadeDrawingSkeletonList[i], this.kinectSensor);
+                    i++;
+                }
+                
+            }
+        }
+
+        void moveCascadeSkeletons()
+        {
+            var listPostures = ExerciseToMonitor.Postures;
+            var i = 0;
+            foreach (var posture in listPostures)
+            {
+                if (posture == this.exercise.CurrentPosture)
+                {
+                    var numberActualPosture = listPostures.IndexOf(posture);
+                    var selectedSkeletonImage = (Image)this.FindName("cascade_Skeleton" + numberActualPosture);
+                    if (selectedSkeletonImage != null)
+                    {
+                        var toChangeSkeletonImage = (Image)this.FindName("cascade_Skeleton" + (numberActualPosture-1));
+                        selectedSkeletonImage.Source = toChangeSkeletonImage.Source;
+                    }
+                }
             }
         }
 
@@ -147,12 +194,15 @@ namespace SIVIRE_Rehabilita
 
                                 Posture currentPostureToCheck = this.exercise.CurrentPosture;
 
+                                
+
                                 if (currentPostureToCheck != null)
                                 {
                                     if (currentPostureToCheck.CurrentStage == PostureStageType.StageFinalCheck)
                                         this.postureDrawingGroup.Children.Clear();
                                     else
                                         currentPostureToCheck.Draw(userSkeleton, this.postureDrawingGroup, this.kinectSensor);
+                                        
 
                                     List<Message> msgsToShow = userSkeleton.checkAndDrawSkeleton(currentPostureToCheck, this.kinectSensor, this.userDrawingGroup);
                                     this.writeMessages(msgsToShow);
@@ -294,6 +344,8 @@ namespace SIVIRE_Rehabilita
         {
             this.confirmRegion.Visibility = Visibility.Hidden;
             this.isExcercisePaused = false;
+            //Dibujar los esqueletos en cascada
+            drawCascadeSkeletons();
         }
 
         private void Restart_Click(object sender, RoutedEventArgs e)
@@ -316,6 +368,8 @@ namespace SIVIRE_Rehabilita
                 this.frameReader = null;
             }
         }
+
+        
 
         #region TextToSpeech
 
