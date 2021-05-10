@@ -71,7 +71,7 @@
                     <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" />
                     <Button x:Name="btn_Play" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" />
                 </StackPanel>
-                <StackPanel x:Name="confirmRegion" Visibility="Visible" HorizontalAlignment="Left" Width="1621" Margin="0,-53,-260.2,-178">
+                <StackPanel x:Name="confirmRegion" Visibility="Hidden" HorizontalAlignment="Left" Width="1621" Margin="0,-53,-260.2,-178">
                     <StackPanel.Background>
                         <SolidColorBrush Color="#E52B98CE"/>
                     </StackPanel.Background>

@@ -241,6 +241,7 @@ namespace SIVIRE_Rehabilita
             SoundPlayer postureReached_sound = new SoundPlayer(Properties.Resources.postureReached);
             postureReached_sound.Play();
             this.setBindings();
+
         }
 
         private void exercise_NextRepetition(object sender, EventArgs e)
