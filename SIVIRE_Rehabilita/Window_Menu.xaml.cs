@@ -63,12 +63,24 @@ namespace SIVIRE_Rehabilita
         {
             InitializeComponent();
             this.DataContext = this.User;
-        }        
+        }
+        
+        
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             this.initializeKinect();
             this.showMenu_Main();
+            this.showTutorial();
+        }
+
+        public void showTutorial()
+        {
+            if (this.User.FirstTime)
+            {
+                //Show tutorial
+                this.User.FirstTime = false;
+            }
         }
 
         void frameReader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)

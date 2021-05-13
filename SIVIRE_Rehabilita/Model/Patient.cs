@@ -22,6 +22,8 @@ namespace SIVIRE_Rehabilita.Model
         string nickName;
         string password;
 
+        bool firstTime;
+
         #endregion
 
         #region Properties
@@ -29,6 +31,7 @@ namespace SIVIRE_Rehabilita.Model
         public string Name { get { return this.name; } }
         public DateTime BirthDate { get { return this.birthDate; } }
         public string Sex { get { return this.sex; } }
+        public bool FirstTime { get { return this.firstTime; } set { this.firstTime = value; } }
         public ImageSource Photo { get { return this.photo; } }
         public List<Routine> Routines 
         { 
@@ -60,6 +63,7 @@ namespace SIVIRE_Rehabilita.Model
             this.name = name;
             this.birthDate = birthDate;
             this.sex = sex;
+            this.firstTime = true;
 
             Uri imagePath = new Uri("Images/user_default_"+this.sex+".png", UriKind.Relative);
             if (imagePath != null)
