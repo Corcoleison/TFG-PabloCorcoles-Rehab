@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Speech.Synthesis;
 using System.Windows.Controls;
+using System.Runtime.CompilerServices;
 
 namespace SIVIRE_Rehabilita
 {
@@ -131,21 +132,53 @@ namespace SIVIRE_Rehabilita
             }
         }
 
-        void moveCascadeSkeletons()
+        private void moveCascadeSkeletons()
         {
             var listPostures = ExerciseToMonitor.Postures;
-            var i = 0;
+            var converter = new System.Windows.Media.BrushConverter();
+            var moradoBrush = (Brush)converter.ConvertFromString("#CCC700FF");
+            var grisBrush = (Brush)converter.ConvertFromString("#CC747474");
             foreach (var posture in listPostures)
             {
                 if (posture == this.exercise.CurrentPosture)
                 {
-                    var numberActualPosture = listPostures.IndexOf(posture);
-                    var selectedSkeletonImage = (Image)this.FindName("cascade_Skeleton" + numberActualPosture);
-                    if (selectedSkeletonImage != null)
+                    this.Dispatcher.Invoke(() =>
                     {
-                        var toChangeSkeletonImage = (Image)this.FindName("cascade_Skeleton" + (numberActualPosture-1));
-                        selectedSkeletonImage.Source = toChangeSkeletonImage.Source;
-                    }
+                        var numberActualPosture = listPostures.IndexOf(posture);
+                        var selectedSkeletonBorder = (Border)this.FindName("border_Skeleton" + numberActualPosture);
+                        Border toChangeSkeletonBorder;
+                        Border toChangeSkeletonBorder2;
+                        if (selectedSkeletonBorder != null)
+                        {
+                            switch (numberActualPosture)
+                            {
+                                case 0:
+                                    selectedSkeletonBorder.Background = moradoBrush;
+                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
+                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 2));
+                                    toChangeSkeletonBorder.Background = grisBrush;
+                                    toChangeSkeletonBorder2.Background = grisBrush;
+                                    break;
+                                case 1:
+                                    selectedSkeletonBorder.Background = moradoBrush;
+                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
+                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
+                                    toChangeSkeletonBorder.Background = grisBrush;
+                                    toChangeSkeletonBorder2.Background = grisBrush;
+                                    break;
+                                case 2:
+                                    selectedSkeletonBorder.Background = moradoBrush;
+                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
+                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 2));
+                                    toChangeSkeletonBorder.Background = grisBrush;
+                                    toChangeSkeletonBorder2.Background = grisBrush;
+                                    break;
+
+                            }
+
+                        }
+                    });
+                    
                 }
             }
         }
@@ -193,8 +226,8 @@ namespace SIVIRE_Rehabilita
                                 }
 
                                 Posture currentPostureToCheck = this.exercise.CurrentPosture;
+                                this.moveCascadeSkeletons();
 
-                                
 
                                 if (currentPostureToCheck != null)
                                 {
