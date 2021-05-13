@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Speech.Synthesis;
 using System.Windows.Controls;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 
 namespace SIVIRE_Rehabilita
 {
@@ -44,6 +45,7 @@ namespace SIVIRE_Rehabilita
         DrawingGroup userDrawingGroup;
         Exercise exercise;
         bool isExcercisePaused;
+        int repetitionErrors;
 
         #endregion
 
@@ -276,6 +278,7 @@ namespace SIVIRE_Rehabilita
             else if (msgs[0].Type == MessageType.Error)
             {
                 this.errorMsgPanel.ErrorMsg = msgs[0].Msg;
+                this.repetitionErrors++;
             }
             else
             {
@@ -324,6 +327,7 @@ namespace SIVIRE_Rehabilita
             SoundPlayer postureReached_sound = new SoundPlayer(Properties.Resources.postureReached);
             postureReached_sound.Play();
             this.setBindings();
+            this.showProgressMessageAsync();
 
         }
 
@@ -333,6 +337,33 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.repetitionsProgressBar.next();
             this.setBindings();
+            
+        }
+
+        private async Task showProgressMessageAsync()
+        {
+            var converter = new System.Windows.Media.BrushConverter();
+            var verdeBrush = (Brush)converter.ConvertFromString("#7F59FF00");
+            var amarilloBrush = (Brush)converter.ConvertFromString("#7FFFAE00");
+            var narajanBrush = (Brush)converter.ConvertFromString("#7FFF6500");
+            this.progress_StackPanel.Visibility = Visibility.Visible;
+            if (this.repetitionErrors <= 0)
+            {
+                this.progress_StackPanel_Label.Content = "Perfecto";
+                this.progress_StackPanel.Background = verdeBrush;
+            }else if(this.repetitionErrors > 1 || this.repetitionErrors <= 3)
+            {
+                this.progress_StackPanel_Label.Content = "Bien";
+                this.progress_StackPanel.Background = amarilloBrush;
+            }
+            else if (this.repetitionErrors > 3)
+            {
+                this.progress_StackPanel_Label.Content = "Sigue Practicando";
+                this.progress_StackPanel.Background = narajanBrush;
+            }
+            this.repetitionErrors = 0;
+            await Task.Delay(3000);
+            this.progress_StackPanel.Visibility = Visibility.Hidden;
         }
 
         private void exercise_ExerciseCompleted(object sender, EventArgs e)
