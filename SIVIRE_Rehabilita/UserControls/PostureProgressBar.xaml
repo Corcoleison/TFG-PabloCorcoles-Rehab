@@ -55,7 +55,7 @@
 				
 				
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="3" Radius="116" HorizontalAlignment="Center" VerticalAlignment="Center" />
-				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="5" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				<UserControls:CircularProgressBar Percentage="100" SegmentColor="{DynamicResource SIVIRE_GreenBrush}" StrokeThickness="10" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				
 				<Label x:Name="lbl_postureCountdown" Content="0" FontSize="130" Height="200" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
 					<Label.Effect>

@@ -38,7 +38,7 @@
                 </UserControls:CircularProgressBar>
                 
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="3" Radius="116" HorizontalAlignment="Center" VerticalAlignment="Center" />
-				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="5" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
+				<UserControls:CircularProgressBar Percentage="100" SegmentColor="{DynamicResource SIVIRE_LigthBlueBrush}" StrokeThickness="10" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				
 				<Label x:Name="label" Content="{Binding CurrentRepetition, ElementName=userControl}" FontSize="110" Height="150" Width="150" Margin="0,45,130,105" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Right" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
 					<Label.Effect>

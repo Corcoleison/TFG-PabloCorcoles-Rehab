@@ -17,6 +17,9 @@ using SIVIRE_Rehabilita.Gestures;
 using SIVIRE_Rehabilita.Model;
 using SIVIRE_Rehabilita.UserControls;
 using System.Windows.Media.Animation;
+using System.Diagnostics;
+using System.Globalization;
+using System.Speech.Recognition;
 
 namespace SIVIRE_Rehabilita
 {
@@ -71,8 +74,35 @@ namespace SIVIRE_Rehabilita
         {
             this.initializeKinect();
             this.showMenu_Main();
+            //this.initializeSpeech();
             this.showTutorial();
         }
+
+        //private void initializeSpeech()
+        //{
+        //    //CultureInfo esEs = new CultureInfo("es-ES");
+        //    SpeechRecognitionEngine escucha = new SpeechRecognitionEngine();
+        //    Choices sList = new Choices();
+        //    sList.Add(new string[] { "hola"});
+        //    GrammarBuilder gBuilder = new GrammarBuilder();
+        //    gBuilder.Append(sList);
+        //    Grammar grammar = new Grammar(gBuilder);
+        //    escucha.LoadGrammarAsync(grammar);
+        //    escucha.SetInputToDefaultAudioDevice();
+        //    escucha.SpeechRecognized += escucha_SpeechRecognized;
+        //    escucha.RecognizeAsync(RecognizeMode.Multiple);
+
+        //}
+
+        //public void escucha_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+        //{
+        //    switch (e.Result.Text)
+        //    {
+        //        case "hola":
+        //            MessageBox.Show("Se iria al perfil");
+        //            break;
+        //    }
+        //}
 
         public void showTutorial()
         {
@@ -148,7 +178,23 @@ namespace SIVIRE_Rehabilita
 
 
         #region Auxiliar Methods
-        
+
+        private void goToProfile()
+        {
+            this.restartWindowContent();
+            this.changeNavigationContent("Perfil de usuario");
+
+            Menu_UserProfile profile = new Menu_UserProfile() { DataContext = this.User };
+            this.CurrentPage = profile;
+
+            this.btn_logout.Visibility = Visibility.Visible;
+            this.btn_userProfile.IsEnabled = false;
+
+            //MessageBox.Show(KinectRegion.GetIsPressTarget(this.btn_Profile).ToString());
+            //var engagementModel = new HandOverheadEngagementModel(1);
+            //this.kinectRegion.SetKinectOnePersonManualEngagement(engagementModel);
+        }
+
         private void initializeKinect()
         {
             // Kinect Sensor

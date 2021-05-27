@@ -77,6 +77,9 @@ namespace SIVIRE_Rehabilita
             //exercises.Add(new Exercise("Ejercicio 8", 1, null));
             //exercises.Add(new Exercise("Ejercicio 9", 1, null));
             exercises.Add(XMLParser.loadExercise("\\ejercicioEval3.xml"));
+            exercises.Add(XMLParser.loadExercise("\\ejercicioEval1.xml"));
+            exercises.Add(XMLParser.loadExercise("\\ejercicioEval2.xml"));
+            exercises.Add(XMLParser.loadExercise("\\ejercicioTest.xml"));
 
             List<Routine> routines = new List<Routine>();
             routines.Add(new Routine("Evaluación Rehabilita", exercises));
