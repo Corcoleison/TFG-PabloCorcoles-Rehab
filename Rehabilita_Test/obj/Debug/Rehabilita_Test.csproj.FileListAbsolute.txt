@@ -30,3 +30,4 @@ E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Tes
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.csproj.CopyComplete
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.pdb
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\System.Windows.Interactivity.dll

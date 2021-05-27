@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/click.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/excercisecompleted.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/posturereached.wav")]
 

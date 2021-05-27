@@ -20,6 +20,7 @@ using System.Windows.Media.Animation;
 using System.Diagnostics;
 using System.Globalization;
 using System.Speech.Recognition;
+using System.Media;
 
 namespace SIVIRE_Rehabilita
 {
@@ -28,6 +29,7 @@ namespace SIVIRE_Rehabilita
     /// </summary>
     public partial class Window_Menu : Window
     {
+
         #region Kinect
 
         KinectSensor kinectSensor;
@@ -315,6 +317,7 @@ namespace SIVIRE_Rehabilita
 
         private void main_SettingsClicked(object sender, EventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             this.restartWindowContent();
             this.changeNavigationContent("Ajustes");
 
@@ -410,6 +413,7 @@ namespace SIVIRE_Rehabilita
 
         private void Profile_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             this.restartWindowContent();
             this.changeNavigationContent("Perfil de usuario");
 
@@ -426,16 +430,19 @@ namespace SIVIRE_Rehabilita
 
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             this.showDialog("¿Quiere cerrar sesión?", new Window_Login());
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             this.moveBack();           
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             this.showDialog("¿Abandonar la aplicación?", null);
         }
 
