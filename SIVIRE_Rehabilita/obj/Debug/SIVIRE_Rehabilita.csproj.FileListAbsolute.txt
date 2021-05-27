@@ -365,3 +365,4 @@ E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabil
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.CopyComplete
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojAssemblyReference.cache

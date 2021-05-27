@@ -56,5 +56,16 @@ namespace SIVIRE_Rehabilita.UserControls
                 catch (System.NullReferenceException) { }
             }
         }
-	}
+
+        private void Left_Click(object sender, RoutedEventArgs e)
+        {
+            scrollViewer.ScrollToLeftEnd();
+        }
+
+        private void Right_Click(object sender, RoutedEventArgs e)
+        {
+            scrollViewer.ScrollToRightEnd();
+        }
+
+    }
 }
