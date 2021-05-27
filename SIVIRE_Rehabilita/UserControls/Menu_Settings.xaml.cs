@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -30,18 +31,21 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void gestures_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             if (this.cbox_gestures.IsChecked.HasValue)
                 App.Gestures_IsEnabled = this.cbox_gestures.IsChecked.Value;
         }
 
         private void sound_Check(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             if (this.cbox_sound.IsChecked.HasValue)
                 App.Sound_IsEnabled = this.cbox_sound.IsChecked.Value;
         }
 
         private void readMsg_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             if (this.cbox_readMsg.IsChecked.HasValue)
                 App.ReadMsg_IsEnabled = this.cbox_readMsg.IsChecked.Value;
         }

@@ -78,6 +78,7 @@
     <Compile Include="Model\EndPosture.cs" />
     <Compile Include="Model\PostureStage.cs" />
     <Compile Include="Model\TransitionPosture.cs" />
+    <Compile Include="Sounds\SystemSoundPlayerAction.cs" />
     <Compile Include="UserControls\Dialog_Confirm.xaml.cs">
       <DependentUpon>Dialog_Confirm.xaml</DependentUpon>
     </Compile>
@@ -254,6 +255,7 @@
     <Resource Include="Images\logo_SIVIRE.png" />
     <Resource Include="Images\user_default_H.png" />
     <Resource Include="Images\user_default_M.png" />
+    <Content Include="Sounds\click.wav" />
     <Content Include="Sounds\excerciseCompleted.wav" />
     <Content Include="Sounds\postureReached.wav" />
   </ItemGroup>

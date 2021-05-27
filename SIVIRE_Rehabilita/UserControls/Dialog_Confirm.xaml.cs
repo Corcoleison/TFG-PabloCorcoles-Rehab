@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -45,6 +46,7 @@ namespace SIVIRE_Rehabilita.UserControls
         {
             try
             {
+                new SoundPlayer(@"Sounds\click.wav").Play();
                 this.OkSelected(this, new EventArgs());
             }
             catch (System.NullReferenceException) { }
@@ -54,6 +56,7 @@ namespace SIVIRE_Rehabilita.UserControls
         {
             try
             {
+                new SoundPlayer(@"Sounds\click.wav").Play();
                 this.CancelSelected(this, new EventArgs());
             }
             catch (System.NullReferenceException) { }

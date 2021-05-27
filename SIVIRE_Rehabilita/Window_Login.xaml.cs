@@ -3,6 +3,7 @@ using SIVIRE_Rehabilita.UserControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,6 +66,7 @@ namespace SIVIRE_Rehabilita
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             List<Exercise> exercises = new List<Exercise>();            
             exercises.Add(XMLParser.loadExercise("\\ejercicioDependencia.xml"));
 

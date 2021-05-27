@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -45,6 +46,7 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void routine_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             var button = (Button)e.OriginalSource;
             Routine routine = button.DataContext as Routine;
 
@@ -60,6 +62,7 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void settings_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             try
             {
                 this.SettingsClicked(this, new EventArgs());

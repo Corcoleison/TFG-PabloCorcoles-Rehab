@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -44,6 +45,7 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void start_Click(object sender, RoutedEventArgs e)
         {
+            new SoundPlayer(@"Sounds\click.wav").Play();
             try
             {
                 this.StartExercise(this.Exercise, new EventArgs());
