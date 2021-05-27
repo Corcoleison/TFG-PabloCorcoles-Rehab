@@ -9,7 +9,7 @@
 		<Storyboard x:Key="showNavigationBar">
 			<ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="navigationBar">
 				<EasingThicknessKeyFrame KeyTime="0" Value="-40,20,0,20"/>
-				<EasingThicknessKeyFrame KeyTime="0:0:0.4" Value="0,20"/>
+				<EasingThicknessKeyFrame KeyTime="0:0:0.4" Value="570,20,0,0"/>
 			</ThicknessAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="navigationBar">
 				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
