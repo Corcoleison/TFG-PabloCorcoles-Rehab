@@ -17,8 +17,8 @@
 		</Storyboard>
 	</UserControl.Resources>
     <Grid>
-		<Label Background="#FF2828C5" MinHeight="90" FontSize="50" FontWeight="Bold" Foreground="White" BorderThickness="4.5" HorizontalContentAlignment="Center">
-			<Label x:Name="lbl_guideMsg" Content="{Binding GuideMsg, ElementName=userControl}" Foreground="White"/>
+		<Label Background="#FF2828C5" MinHeight="100" FontSize="65" FontWeight="Bold" Foreground="White" BorderThickness="4.5" HorizontalContentAlignment="Center">
+			<Label x:Name="lbl_guideMsg" Content="{Binding GuideMsg, ElementName=userControl}" Foreground="White" Margin="0,-18,0,0"/>
 		</Label>
 		<Border BorderBrush="#FF000080" BorderThickness="5" CornerRadius="0,0,12,12">
 			<Border.Effect>

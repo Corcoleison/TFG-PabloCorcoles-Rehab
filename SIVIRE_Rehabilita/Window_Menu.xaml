@@ -8,8 +8,8 @@
     <Window.Resources>
         <Storyboard x:Key="showNavigationBar">
             <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="navigationBar">
-                <EasingThicknessKeyFrame KeyTime="0" Value="400,20,0,20"/>
-                <EasingThicknessKeyFrame KeyTime="0:0:0.4" Value="570,20,0,0"/>
+                <EasingThicknessKeyFrame KeyTime="0" Value="-40,20,0,20"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:0.4" Value="0,20"/>
             </ThicknessAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="navigationBar">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
@@ -25,7 +25,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="navigationBar">
-                <EasingThicknessKeyFrame KeyTime="0:0:0.3" Value="400,20,0,20"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:0.3" Value="-40,20,0,20"/>
             </ThicknessAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="showDialog">
@@ -69,7 +69,7 @@
                 </Grid.RowDefinitions>
 
                 <k:KinectUserViewer Grid.Row="0" Grid.ColumnSpan="2" x:Name="userViewer" HorizontalAlignment="Center" Visibility="Hidden"/>
-                <Image Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Source="Images/logo_SIVIRE.png" Margin="0,0,-550,19">
+                <Image Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Source="Images/logo_SIVIRE.png" Margin="0,0,20,20">
                     <Image.Effect>
                         <DropShadowEffect/>
                     </Image.Effect>
@@ -83,8 +83,8 @@
                     <Label x:Name="navigationBar_Location" Content="Location" Foreground="White" FontSize="70" Margin="70,-15,0,0" />
                 </Grid>
 
-                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Click="Back_Click" HorizontalAlignment="Right" Height="130" Width="130" Visibility="Hidden" Margin="0,0,182.8,0" />
-                <Button x:Name="btn_Exit" Style="{DynamicResource CloseButtonStyle}" VerticalAlignment="Top" Click="Exit_Click" HorizontalAlignment="Right" Height="130" Width="130" Margin="0,0,182.8,0"/>
+                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Click="Back_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130" Visibility="Hidden"/>
+                <Button x:Name="btn_Exit" Style="{DynamicResource CloseButtonStyle}" VerticalAlignment="Top" Click="Exit_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130"/>
 
                 <StackPanel Grid.Column="0" Grid.Row="1" Margin="30,20" Orientation="Vertical" VerticalAlignment="Top" >
                     <Button x:Name="btn_userProfile" Style="{DynamicResource KinectTileButton}" MaxHeight="200" MaxWidth="200" Click="Profile_Click">
