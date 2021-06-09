@@ -117,7 +117,7 @@
 
                 <GridSplitter Grid.Column="0" Width="3" Margin="0,20" Grid.Row="1"/>
 
-                <Grid x:Name="navigationRegion" Grid.Row="1" Grid.Column="2" Margin="30,20"/>
+                <Grid x:Name="navigationRegion" Grid.Row="1" Grid.Column="2" Margin="30,20,0,-95"/>
 
                 <Grid x:Name="navigationRegionHigh" Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Margin="30,20"/>
 

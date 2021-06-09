@@ -391,6 +391,7 @@ namespace SIVIRE_Rehabilita
             List<Message> aux = new List<Message>();
             aux.Add(new Message("¡Enhorabuena! Ha completado el ejercicio", new List<JointType>(), MessageType.Guide));
             this.writeMessages(aux);
+            this.exercise.Finished = true;
         }
 
         private void Pause_Click(object sender, RoutedEventArgs e)

@@ -300,6 +300,7 @@ namespace SIVIRE_Rehabilita
             Menu_Main main = new Menu_Main() { Routines = this.User.Routines };
             main.RoutineSelected += routineSelected;
             main.SettingsClicked += main_SettingsClicked;
+            main.StartClicked += exerciseSelected;
             this.CurrentPage = main;
             this.restartWindowContent();
         }

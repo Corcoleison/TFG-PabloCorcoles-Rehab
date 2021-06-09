@@ -29,5 +29,10 @@ namespace SIVIRE_Rehabilita.Model
             this.name = name;
             this.Exercises = exercises;
         }
+
+        public List<Exercise> getUnfishiedExercise()
+        {
+            return Exercises.Where(x => x.Finished == false).ToList();
+        }
     }
 }
