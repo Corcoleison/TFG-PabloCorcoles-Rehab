@@ -1178,6 +1178,340 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+    <!-- CheckBox Style-->
+    <Style x:Key="CheckBoxStyleChecked" TargetType="CheckBox">
+        <Setter Property="MinHeight" Value="112" />
+        <Setter Property="MinWidth" Value="316" />
+        <Setter Property="MaxWidth" Value="948" />
+        <Setter Property="Padding" Value="18,14,18,14" />
+        <Setter Property="Foreground" Value="{StaticResource WhiteBrush}" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalContentAlignment" Value="Top" />
+        <Setter Property="BorderThickness"  Value="0,1,0,0" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Grid Margin="4,6" VerticalAlignment="Top">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition From="Pressed" GeneratedDuration="0">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:0.333"
+                                                To="0"
+                                                Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                                Storyboard.TargetName="rectangle">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase Exponent="7" />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Duration="0:0:0.333"
+                                                To="0"
+                                                Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                                Storyboard.TargetName="rectangle1">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase Exponent="7" />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Duration="0:0:0.333"
+                                                To="0"
+                                                Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                                Storyboard.TargetName="rectangle2">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase Exponent="7" />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Duration="0:0:0.333"
+                                                To="0"
+                                                Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                                Storyboard.TargetName="rectangle3">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase Exponent="7" />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="DarkMask">
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.333">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+                                    <VisualTransition From="PointerOver"
+                                        To="Normal"
+                                        GeneratedDuration="0:0:0.33">
+                                        <VisualTransition.GeneratedEasingFunction>
+                                            <QuarticEase />
+                                        </VisualTransition.GeneratedEasingFunction>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0"
+                                            To="1"
+                                            Storyboard.TargetProperty="(UIElement.Opacity)"
+                                            Storyboard.TargetName="PointerOverHighlight" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.133"
+                                            To="1"
+                                            Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                            Storyboard.TargetName="rectangle">
+                                            <DoubleAnimation.EasingFunction>
+                                                <ExponentialEase Exponent="7" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Duration="0:0:0.133"
+                                            To="1"
+                                            Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleX)"
+                                            Storyboard.TargetName="rectangle1">
+                                            <DoubleAnimation.EasingFunction>
+                                                <ExponentialEase Exponent="7" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Duration="0:0:0.133"
+                                            To="1"
+                                            Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                            Storyboard.TargetName="rectangle2">
+                                            <DoubleAnimation.EasingFunction>
+                                                <ExponentialEase Exponent="7" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Duration="0:0:0.133"
+                                            To="1"
+                                            Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)"
+                                            Storyboard.TargetName="rectangle3">
+                                            <DoubleAnimation.EasingFunction>
+                                                <ExponentialEase Exponent="7" />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="DarkMask">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <!-- TODO: To="{StaticResource DisabledOpacity}" -->
+                                        <DoubleAnimation Duration="0"
+                                            To="0"
+                                            Storyboard.TargetProperty="(UIElement.Opacity)"
+                                            Storyboard.TargetName="ContentPresenter" />
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition From="Focused"
+                                        To="Unfocused"
+                                        GeneratedDuration="0:0:0.33">
+                                        <VisualTransition.GeneratedEasingFunction>
+                                            <QuarticEase />
+                                        </VisualTransition.GeneratedEasingFunction>
+                                    </VisualTransition>
+                                    <VisualTransition From="PointerFocused"
+                                        To="Unfocused"
+                                        GeneratedDuration="0:0:0.33">
+                                        <VisualTransition.GeneratedEasingFunction>
+                                            <QuarticEase />
+                                        </VisualTransition.GeneratedEasingFunction>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MediumGrayBrush}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill)" Storyboard.TargetName="NormalRectangle">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MediumGrayBrush}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="FocusHighlight">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <!-- TODO: Add EnableDependentAnimation="True" to this element -->
+                                        <!--<ObjectAnimationUsingKeyFrames Duration="0"                                            
+                                            Storyboard.TargetProperty="PlayState"
+                                            Storyboard.TargetName="focusSound">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="1"></DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>-->
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused" />
+                                <VisualState x:Name="PointerFocused">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource MediumGrayBrush}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="FocusHighlight">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="CheckGlyph">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Indeterminate">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="IndeterminateGlyph">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <Border x:Name="PointerOverHighlight"
+                                BorderBrush="{StaticResource LightGrayBrush}"
+                                Background="{x:Null}"
+                                BorderThickness="4"
+                                Margin="-8" 
+                                Opacity="0"/>
+
+                        <Border x:Name="FocusHighlight"
+                                BorderBrush="{StaticResource WhiteBrush}"
+                                Background="{x:Null}"
+                                BorderThickness="4"
+                                Margin="-8"
+                                Visibility="Collapsed"/>
+
+                        <Border x:Name="Border"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{StaticResource MediumGrayBrush}"
+                                RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <ScaleTransform />
+                            </Border.RenderTransform>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid x:Name="CheckBox"
+                                      Background="{TemplateBinding Background}"
+                                      RenderTransformOrigin="1,0.5"
+                                      Width="100"
+                                      Height="100"
+                                      VerticalAlignment="Top">
+                                    <Grid.RenderTransform>
+                                        <ScaleTransform />
+                                    </Grid.RenderTransform>
+                                    <Rectangle x:Name="NormalRectangle"
+                                        Stroke="{StaticResource LightGrayBrush}"
+                                        Fill="{DynamicResource SIVIRE_TransparentDarkGreenBrush}"
+                                        StrokeThickness="4"
+                                        Margin="18" />
+                                    <Path x:Name="CheckGlyph"
+                                        Data="F1M41.1724,12.5073L35.6344,6.9173L21.1214,21.4003L13.6914,14.0053L8.1874,19.5363L21.1914,32.4743z"
+                                        Fill="{StaticResource WhiteBrush}"
+                                        Height="25.557"
+                                        Width="32.985"
+                                        Visibility="Collapsed"
+                                        Stretch="Fill" />
+                                    <Rectangle x:Name="IndeterminateGlyph"
+                                        Fill="{StaticResource WhiteBrush}"
+                                        Height="28"
+                                        Width="28"
+                                        UseLayoutRounding="False"
+                                        Visibility="Collapsed" />
+                                </Grid>
+                                <Grid x:Name="ContentPresenter"
+                                    Grid.Column="1"
+                                    RenderTransformOrigin="0,0.5"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center">
+                                    <Grid.RenderTransform>
+                                        <ScaleTransform />
+                                    </Grid.RenderTransform>
+                                    <TextBlock Text="{TemplateBinding Content}"
+                                        Style="{StaticResource ButtonTextStyle}"
+                                        Padding="{TemplateBinding Padding}"
+                                        VerticalAlignment="Stretch"
+                                        HorizontalAlignment="Stretch"
+                                        Canvas.ZIndex="2" />
+                                </Grid>
+                            </Grid>
+                        </Border>
+
+                        <Grid x:Name="DarkMask"
+                              Visibility="Collapsed"
+                              Margin="-4">
+                            <Rectangle x:Name="rectangle"
+                                       Fill="{StaticResource MediumGrayBrush}"
+                                       HorizontalAlignment="Left"
+                                       Width="14"
+                                       RenderTransformOrigin="0,0.5">
+                                <Rectangle.RenderTransform>
+                                    <ScaleTransform ScaleX="0" />
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <Rectangle x:Name="rectangle1"
+                                       Fill="{StaticResource MediumGrayBrush}"
+                                       HorizontalAlignment="Right"
+                                       Width="14"
+                                       RenderTransformOrigin="1,0.5">
+                                <Rectangle.RenderTransform>
+                                    <ScaleTransform ScaleX="0" />
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <Rectangle x:Name="rectangle2"
+                                       Fill="{StaticResource MediumGrayBrush}"
+                                       Height="14"
+                                       VerticalAlignment="Top"
+                                       RenderTransformOrigin="0.5,0">
+                                <Rectangle.RenderTransform>
+                                    <ScaleTransform ScaleY="0" />
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <Rectangle x:Name="rectangle3"
+                                       Fill="{StaticResource MediumGrayBrush}"
+                                       Height="14"
+                                       VerticalAlignment="Bottom"
+                                       RenderTransformOrigin="0.5,1">
+                                <Rectangle.RenderTransform>
+                                    <ScaleTransform ScaleY="0" />
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
     <!-- 
     BackButtons have a small visible area.
     The changes in this style (change margin to padding, set kinectpressinset,
