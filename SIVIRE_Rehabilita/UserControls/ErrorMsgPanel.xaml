@@ -35,7 +35,7 @@
 		</Storyboard>
 	</UserControl.Resources>
 	<Grid>
-		<Label x:Name="lbl_errorMsg" Background="#FFB22222" Content="{Binding ErrorMsg, ElementName=UserControl}" MinHeight="90" VerticalAlignment="Top" FontSize="50" FontWeight="Bold" HorizontalContentAlignment="Center" BorderThickness="4.5" Foreground="White"/>
+		<Label x:Name="lbl_errorMsg" Background="#FFB22222" Content="{Binding ErrorMsg, ElementName=UserControl}" MinHeight="90" VerticalAlignment="Top" FontSize="65" FontWeight="Bold" HorizontalContentAlignment="Center" BorderThickness="4.5" Foreground="White" Margin="0,-10,0,0"/>
 		<Border x:Name="border" BorderBrush="#FF752B2B" BorderThickness="5" CornerRadius="0,0,12,12" MinHeight="90" VerticalAlignment="Top">
 			<Border.Effect>
 				<DropShadowEffect ShadowDepth="2"/>

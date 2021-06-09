@@ -56,7 +56,10 @@
                     <Image x:Name="img_ColorFrame"/>
                     <Image x:Name="posture_Skeleton" />
                     <Image x:Name="user_Skeleton"/>
-                    <Border x:Name="border_Skeleton0" Margin="900,300,50,89" Width="120" Height="120" Background="#CCC700FF" CornerRadius="5">
+                    <Border x:Name="border_Skeleton0" Width="120" Height="120" Background="#CCC700FF" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="400" Y="120" ></TranslateTransform> 
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton0" Margin="0,0,-30,0" Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="217" Height="227" VerticalAlignment="Bottom"/>
                     </Border>
                     <Border x:Name="border_Skeleton1" Margin="910,500,-180,89" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
