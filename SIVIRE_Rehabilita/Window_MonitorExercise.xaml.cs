@@ -396,7 +396,8 @@ namespace SIVIRE_Rehabilita
 
         private void Pause_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.isExcercisePaused = true;
             List<Message> aux = new List<Message>();
             aux.Add(new Message("Ejercicio pausado", new List<JointType>(), MessageType.Guide));
@@ -405,7 +406,8 @@ namespace SIVIRE_Rehabilita
 
         private void Resume_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.isExcercisePaused = false;
         }
 
@@ -423,7 +425,8 @@ namespace SIVIRE_Rehabilita
 
         private void Confirm_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.confirmRegion.Visibility = Visibility.Hidden;
             this.isExcercisePaused = false;
             //Dibujar los esqueletos en cascada
@@ -432,13 +435,15 @@ namespace SIVIRE_Rehabilita
 
         private void Restart_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.exercise.restart();
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             Window_Menu window = new Window_Menu();
             window.Show();
             this.Close();

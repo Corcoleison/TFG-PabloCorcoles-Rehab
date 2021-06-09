@@ -31,21 +31,24 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void gestures_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             if (this.cbox_gestures.IsChecked.HasValue)
                 App.Gestures_IsEnabled = this.cbox_gestures.IsChecked.Value;
         }
 
         private void sound_Check(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             if (this.cbox_sound.IsChecked.HasValue)
                 App.Sound_IsEnabled = this.cbox_sound.IsChecked.Value;
         }
 
         private void readMsg_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             if (this.cbox_readMsg.IsChecked.HasValue)
                 App.ReadMsg_IsEnabled = this.cbox_readMsg.IsChecked.Value;
         }

@@ -183,7 +183,8 @@ namespace SIVIRE_Rehabilita
 
         private void goToSettings()
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.restartWindowContent();
             this.changeNavigationContent("Ajustes");
 
@@ -330,7 +331,8 @@ namespace SIVIRE_Rehabilita
 
         private void main_SettingsClicked(object sender, EventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.restartWindowContent();
             this.changeNavigationContent("Ajustes");
 
@@ -426,7 +428,8 @@ namespace SIVIRE_Rehabilita
 
         private void Profile_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.restartWindowContent();
             this.changeNavigationContent("Perfil de usuario");
 
@@ -443,19 +446,22 @@ namespace SIVIRE_Rehabilita
 
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.showDialog("¿Quiere cerrar sesión?", new Window_Login());
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.moveBack();           
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             this.showDialog("¿Abandonar la aplicación?", null);
         }
 

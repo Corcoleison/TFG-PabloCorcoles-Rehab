@@ -47,7 +47,8 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void routine_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             var button = (Button)e.OriginalSource;
             Routine routine = button.DataContext as Routine;
 
@@ -63,7 +64,8 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void settings_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             try
             {
                 this.SettingsClicked(this, new EventArgs());
