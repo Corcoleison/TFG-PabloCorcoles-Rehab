@@ -57,12 +57,15 @@
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="3" Radius="116" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="{DynamicResource SIVIRE_GreenBrush}" StrokeThickness="10" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				
-				<Label x:Name="lbl_postureCountdown" Content="0" FontSize="130" Height="200" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
+				<Label x:Name="lbl_postureCountdown" Content="0" FontSize="130" Height="200" Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" Foreground="{Binding SegmentColor, ElementName=circularProgress}" Margin="19,29,81,71" >
 					<Label.Effect>
 						<DropShadowEffect/>
 					</Label.Effect>
 				</Label>
 				<Label Content="" FontSize="35" FontWeight="Bold" Height="100" Margin="63.376,28.999,66.293,170.999" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" />
+                <Label Content="/" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="119.441,109.629,80.558,90.37" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Label x:Name="lbl_leftPostureCountdown" Content="0" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="182,120,0,80" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                <Label Content="POS" FontSize="40" FontWeight="Bold" Height="100" Margin="64.176,178.159,65.493,21.84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
             </Grid>
         </Viewbox>
     </Grid>

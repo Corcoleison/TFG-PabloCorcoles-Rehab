@@ -181,6 +181,18 @@ namespace SIVIRE_Rehabilita
 
         #region Auxiliar Methods
 
+        private void goToSettings()
+        {
+            new SoundPlayer(@"Sounds\click.wav").Play();
+            this.restartWindowContent();
+            this.changeNavigationContent("Ajustes");
+
+            Menu_Settings settings = new Menu_Settings();
+            this.CurrentPage = settings;
+
+            this.btn_userProfile.IsEnabled = false;
+        }
+
         private void goToProfile()
         {
             this.restartWindowContent();

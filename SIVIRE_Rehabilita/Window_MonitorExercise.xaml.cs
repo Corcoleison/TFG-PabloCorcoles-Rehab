@@ -130,8 +130,16 @@ namespace SIVIRE_Rehabilita
                     posture.Draw(skeletonPosture, cascadeDrawingSkeletonList[i], this.kinectSensor);
                     i++;
                 }
-                
             }
+            for(int x=i; x <= 10; x++)
+            {
+                var selectedSkeletonBorder = (Border)this.FindName("border_Skeleton" + x);
+                if (selectedSkeletonBorder != null)
+                {
+                    selectedSkeletonBorder.Visibility = Visibility.Hidden;
+                }
+            }
+
         }
 
         private void moveCascadeSkeletons()
@@ -152,31 +160,37 @@ namespace SIVIRE_Rehabilita
                         Border toChangeSkeletonBorder2;
                         if (selectedSkeletonBorder != null)
                         {
-                            switch (numberActualPosture)
+                            for(int i = 0; i <= listPostures.Count; i++)
                             {
-                                case 0:
-                                    selectedSkeletonBorder.Background = moradoBrush;
-                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
-                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 2));
-                                    toChangeSkeletonBorder.Background = grisBrush;
-                                    toChangeSkeletonBorder2.Background = grisBrush;
-                                    break;
-                                case 1:
-                                    selectedSkeletonBorder.Background = moradoBrush;
-                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
-                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
-                                    toChangeSkeletonBorder.Background = grisBrush;
-                                    toChangeSkeletonBorder2.Background = grisBrush;
-                                    break;
-                                case 2:
-                                    selectedSkeletonBorder.Background = moradoBrush;
-                                    toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
-                                    toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 2));
-                                    toChangeSkeletonBorder.Background = grisBrush;
-                                    toChangeSkeletonBorder2.Background = grisBrush;
-                                    break;
-
+                                toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (i));
+                                toChangeSkeletonBorder.Background = grisBrush;
                             }
+                            selectedSkeletonBorder.Background = moradoBrush;
+                            //switch (numberActualPosture)
+                            //{
+                            //    case 0:
+                            //        selectedSkeletonBorder.Background = moradoBrush;
+                            //        toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
+                            //        toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 2));
+                            //        toChangeSkeletonBorder.Background = grisBrush;
+                            //        toChangeSkeletonBorder2.Background = grisBrush;
+                            //        break;
+                            //    case 1:
+                            //        selectedSkeletonBorder.Background = moradoBrush;
+                            //        toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
+                            //        toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture + 1));
+                            //        toChangeSkeletonBorder.Background = grisBrush;
+                            //        toChangeSkeletonBorder2.Background = grisBrush;
+                            //        break;
+                            //    case 2:
+                            //        selectedSkeletonBorder.Background = moradoBrush;
+                            //        toChangeSkeletonBorder = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 1));
+                            //        toChangeSkeletonBorder2 = (Border)this.FindName("border_Skeleton" + (numberActualPosture - 2));
+                            //        toChangeSkeletonBorder.Background = grisBrush;
+                            //        toChangeSkeletonBorder2.Background = grisBrush;
+                            //        break;
+
+                            //}
 
                         }
                     });
