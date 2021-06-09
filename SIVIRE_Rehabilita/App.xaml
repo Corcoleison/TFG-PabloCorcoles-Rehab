@@ -15,6 +15,7 @@
             <Color x:Key="SIVIRE_DarkRedColor">#C30000</Color>
             <Color x:Key="SIVIRE_TransparentWhiteColor">#A5FFFFFF</Color>
             <Color x:Key="SIVIRE_TransparentGrayColor">#BD919191</Color>
+            <Color x:Key="SIVIRE_TransparentDarkGreenColor">#BC00A264</Color>
 
             
 
@@ -29,6 +30,7 @@
             <SolidColorBrush x:Key="SIVIRE_DarkRedBrush" Color="{StaticResource SIVIRE_DarkRedColor}" />
             <SolidColorBrush x:Key="SIVIRE_TransparentWhiteBrush" Color="{StaticResource SIVIRE_TransparentWhiteColor}" />
             <SolidColorBrush x:Key="SIVIRE_TransparentGrayBrush" Color="{StaticResource SIVIRE_TransparentGrayColor}" />
+            <SolidColorBrush x:Key="SIVIRE_TransparentDarkGreenBrush" Color="{StaticResource SIVIRE_TransparentDarkGreenColor}" />
             
             <LinearGradientBrush x:Key="SIVIRE_GradientBrush" EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="{StaticResource SIVIRE_DarkBlueColor}" />
