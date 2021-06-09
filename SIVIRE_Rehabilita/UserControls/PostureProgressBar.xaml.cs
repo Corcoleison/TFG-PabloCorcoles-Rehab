@@ -77,7 +77,9 @@ namespace SIVIRE_Rehabilita.UserControls
         {
             if (this.CurrentPosture <= this.NumPostures)
             {
-                this.lbl_postureCountdown.Content = this.NumPostures - this.CurrentPosture;
+                //this.lbl_postureCountdown.Content = this.NumPostures - this.CurrentPosture;
+                this.lbl_postureCountdown.Content = this.CurrentPosture;
+                this.lbl_leftPostureCountdown.Content = this.NumPostures;
 
                 // Obtenemos el recurso y le cambiamos el valor para que la barra se mueva con la animación
                 EasingDoubleKeyFrame aux = (EasingDoubleKeyFrame)this.FindResource("newCalculatedPercentage");
@@ -92,6 +94,7 @@ namespace SIVIRE_Rehabilita.UserControls
             else
             {
                 this.lbl_postureCountdown.Content = 0;
+                this.lbl_leftPostureCountdown.Content = this.NumPostures;
                 this.CurrentPosture = this.NumPostures;
             }
         }
