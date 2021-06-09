@@ -46,7 +46,13 @@
 					<TextBlock Text="Ajustes" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>
 			</Button>
-		</StackPanel>
+            <Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="start_Click" >
+                <StackPanel Background="{DynamicResource SIVIRE_DarkRedBrush}">
+                    <TextBlock Text="&#xe102;" Style="{DynamicResource ButtonIconStyle}" />
+                    <TextBlock Text="Start" Style="{DynamicResource ButtonTextStyle}" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
 
 	</Grid>
 </UserControl>

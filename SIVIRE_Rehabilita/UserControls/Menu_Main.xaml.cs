@@ -28,6 +28,7 @@ namespace SIVIRE_Rehabilita.UserControls
         }
 
         public event EventHandler RoutineSelected;
+        public event EventHandler StartClicked;
         public event EventHandler SettingsClicked;
 
         public List<Routine> Routines
@@ -68,6 +69,41 @@ namespace SIVIRE_Rehabilita.UserControls
                 this.SettingsClicked(this, new EventArgs());
             }
             catch (System.NullReferenceException) { }
+        }
+
+        private void start_Click(object sender, RoutedEventArgs e)
+        {
+            Exercise exercise = getNextUnfinishedExercise();
+            if (exercise != null)
+            {
+                try
+                {
+                    this.StartClicked(exercise, new EventArgs());
+                }
+                catch (System.NullReferenceException) { }
+            }
+
+        }
+
+        private Exercise getNextUnfinishedExercise()
+        {
+            List<Routine> routinesWithExer = new List<Routine>();
+            List<Exercise> unfinishedExer;
+            foreach (Routine routine in Routines)
+            {
+                unfinishedExer = routine.getUnfishiedExercise();
+                if (unfinishedExer.Count > 0)
+                {
+                    routinesWithExer.Add(routine);
+                    return unfinishedExer[0];
+                }
+            }
+            MessageBox.Show("There are no more exercises to complete");
+            return null;
+            //if (routinesWithExer.Count > 0)
+            //{
+            //    return routinesWithExer
+            //}
         }
     }
 }

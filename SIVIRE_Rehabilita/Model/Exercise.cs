@@ -37,6 +37,7 @@ namespace SIVIRE_Rehabilita.Model
         bool equilibriumScale;
         bool guideVoice;
         bool avatar;
+        bool finished;
         private ImageSource animation = null;
 
         bool posMatters; //Variable de dependencia o no de la posición
@@ -103,6 +104,12 @@ namespace SIVIRE_Rehabilita.Model
             set { this.avatar = value; }
         }
 
+        public bool Finished
+        {
+            get { return this.finished; }
+            set { this.finished = value; }
+        }
+
         public Posture CurrentPosture
         {
             get
@@ -153,6 +160,7 @@ namespace SIVIRE_Rehabilita.Model
             this.name = name;
             this.numRepetitions = numRepetitions;
             this.Postures = postures;
+            this.Finished = false;
 
             this.posMatters = pMatters;
 
