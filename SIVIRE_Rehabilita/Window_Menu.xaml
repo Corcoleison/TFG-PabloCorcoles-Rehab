@@ -50,6 +50,18 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Style TargetType="ToolTip">
+            <Style.Resources>
+                <Style TargetType="ContentPresenter">
+                    <Style.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextWrapping" Value="Wrap" />
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </Style.Resources>
+            <Setter Property="FontSize" Value="20" />
+        </Style>
     </Window.Resources>
 
     <k:KinectRegion x:Name="kinectRegion" Margin="20">
@@ -83,11 +95,11 @@
                     <Label x:Name="navigationBar_Location" Content="Location" Foreground="White" FontSize="70" Margin="70,-15,0,0" />
                 </Grid>
 
-                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Click="Back_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130" Visibility="Hidden"/>
-                <Button x:Name="btn_Exit" Style="{DynamicResource CloseButtonStyle}" VerticalAlignment="Top" Click="Exit_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130"/>
+                <Button x:Name="btn_Back" ToolTip="Volver atrás" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Click="Back_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130" Visibility="Hidden"/>
+                <Button x:Name="btn_Exit" ToolTip="Cierra la aplicación"  Style="{DynamicResource CloseButtonStyle}" VerticalAlignment="Top" Click="Exit_Click" HorizontalAlignment="Right" Grid.Column="1" Height="130" Width="130"/>
 
                 <StackPanel Grid.Column="0" Grid.Row="1" Margin="30,20" Orientation="Vertical" VerticalAlignment="Top" >
-                    <Button x:Name="btn_userProfile" Style="{DynamicResource KinectTileButton}" MaxHeight="200" MaxWidth="200" Click="Profile_Click">
+                    <Button ToolTip="Ir a información del usuario"  x:Name="btn_userProfile" Style="{DynamicResource KinectTileButton}" MaxHeight="200" MaxWidth="200" Click="Profile_Click">
                         <Grid x:Name="grid" Background="White" >
                             <Grid.Effect>
                                 <DropShadowEffect/>

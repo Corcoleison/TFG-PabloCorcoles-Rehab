@@ -25,7 +25,7 @@ namespace SIVIRE_Rehabilita
     public partial class Window_Login : Window
     {
         string clave = "SIVIRE";
-        string default_User = "Usuario";
+        string default_User = "Alberto";
         string default_Password = "****";
 
         public Window_Login()
