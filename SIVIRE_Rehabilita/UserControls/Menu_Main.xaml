@@ -29,19 +29,19 @@
 
 		<StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" Margin="0">
 			<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}"  Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" IsEnabled="False" >
-				<StackPanel Background="{DynamicResource SIVIRE_DarkGrayBrush}">
+                <StackPanel Background="{DynamicResource SIVIRE_DarkBlueBrush}">
 					<TextBlock Text="&#x1f4e8;" Style="{DynamicResource ButtonIconStyle}" />
 					<TextBlock Text="Fisioterapeuta" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>
 			</Button>
 			<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" IsEnabled="False" >
-				<StackPanel Background="{DynamicResource SIVIRE_DarkGrayBrush}">
+                <StackPanel Background="{DynamicResource SIVIRE_DarkBlueBrush}">
 					<TextBlock Text="&#x1f4c8;" Style="{DynamicResource ButtonIconStyle}" />
 					<TextBlock Text="Estadísticas" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>
 			</Button>
 			<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="settings_Click" >
-				<StackPanel Background="{DynamicResource SIVIRE_DarkGrayBrush}">
+                <StackPanel Background="{DynamicResource SIVIRE_DarkBlueBrush}">
 					<TextBlock Text="&#xe115;" Style="{DynamicResource ButtonIconStyle}" />
 					<TextBlock Text="Ajustes" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>

@@ -65,7 +65,7 @@
 				<Label Content="" FontSize="35" FontWeight="Bold" Height="100" Margin="63.376,28.999,66.293,170.999" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" />
                 <Label Content="/" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="119.441,109.629,80.558,90.37" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
                 <Label x:Name="lbl_leftPostureCountdown" Content="0" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="182,120,0,80" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
-                <Label Content="POS" FontSize="40" FontWeight="Bold" Height="100" Margin="64.176,178.159,65.493,21.84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Label Content="POSTURA" FontSize="30" FontWeight="Bold" Height="100" Margin="64.176,178.159,65.493,21.84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
             </Grid>
         </Viewbox>
     </Grid>
