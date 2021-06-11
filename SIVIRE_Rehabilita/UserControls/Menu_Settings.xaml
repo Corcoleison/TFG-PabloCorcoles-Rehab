@@ -7,10 +7,10 @@
              d:DesignHeight="500" d:DesignWidth="1000">
     <Grid>
 		<StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,30,0">
-			<CheckBox x:Name="cbox_gestures" Content="Gestos" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Gestures_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
-			<CheckBox x:Name="cbox_sound" Content="Sonido" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Sound_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
-			<CheckBox x:Name="cbox_readMsg" Content="Lectura de Mensajes de guía" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" />
-            <CheckBox x:Name="cbox_readErrorMsg" Content="Lectura de Mensajes de error" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadErrorMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" />			
+            <CheckBox x:Name="cbox_gestures" Content="Gestos" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Gestures_IsEnabled, ElementName=userControl, Mode=TwoWay}" Checked="gestures_Click" Unchecked="gestures_Click"/>
+            <CheckBox x:Name="cbox_sound" Content="Sonido" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.Sound_IsEnabled, ElementName=userControl, Mode=TwoWay}" Checked="sound_Click" Unchecked="sound_Click" />
+            <CheckBox x:Name="cbox_readMsg" Content="Lectura de Mensajes de guía" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" Checked="readMsg_Click" Unchecked="readMsg_Click"/>
+            <CheckBox x:Name="cbox_readErrorMsg" Content="Lectura de Mensajes de error" Style="{StaticResource CheckBoxStyle}" IsChecked="{Binding App.ReadErrorMsg_IsEnabled, ElementName=userControl, Mode=TwoWay}" Checked="readErrorMsg_Click" Unchecked="readErrorMsg_Click"/>			
 		</StackPanel>
     </Grid>
 </UserControl>

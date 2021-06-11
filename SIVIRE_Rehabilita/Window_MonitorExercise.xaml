@@ -58,23 +58,38 @@
                     <Image x:Name="user_Skeleton"/>
                     <Border x:Name="border_Skeleton0" Width="120" Height="120" Background="#CCC700FF" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="400" Y="120" ></TranslateTransform> 
+                            <TranslateTransform X="-800" Y="120" ></TranslateTransform>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton0" Margin="0,0,-30,0" Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="217" Height="227" VerticalAlignment="Bottom"/>
                     </Border>
-                    <Border x:Name="border_Skeleton1" Margin="910,500,-180,89" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                    <Border x:Name="border_Skeleton1" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="-680" Y="160" ></TranslateTransform>
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton1" Margin="0,0,-27,0" Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="217" Height="227" VerticalAlignment="Bottom"/>
                     </Border>
-                    <Border x:Name="border_Skeleton2" Margin="960,640,-370,10" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                    <Border x:Name="border_Skeleton2" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="-560" Y="220" ></TranslateTransform>
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton2" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
-                    <Border x:Name="border_Skeleton3" Margin="890,600,50,89" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                    <Border x:Name="border_Skeleton3" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="-800" Y="250" ></TranslateTransform>
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton3" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
-                    <Border x:Name="border_Skeleton4" Margin="1135,800,50,89" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                    <Border x:Name="border_Skeleton4"  Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="-680" Y="300" ></TranslateTransform>
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton4" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
-                    <Border x:Name="border_Skeleton5" Margin="1380,800,50,-100" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                    <Border x:Name="border_Skeleton5" Margin="1380,800,0,0" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
+                        <Border.RenderTransform>
+                            <TranslateTransform X="-1240" Y="-50" ></TranslateTransform>
+                        </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton5" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                 </Grid>
@@ -95,11 +110,9 @@
                 <StackPanel x:Name="progress_StackPanel" Visibility="Hidden" HorizontalAlignment="Left" Height="515" Margin="0,26.405,-189.2,0" VerticalAlignment="Top" Width="1550" Grid.Row="1">
                     <Label x:Name="progress_StackPanel_Label" Content="" Foreground="White" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,200,0,0"/>
                 </StackPanel>
+                <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" Margin="0,26.6,-0.2,0" Grid.Row="1" />
+                <Button x:Name="btn_Play" Visibility="Hidden" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" Margin="0,26.6,-0.2,0" Grid.Row="1" />
                 <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Height="130" Click="Back_Click" Margin="0,76,-0.2,0" Grid.RowSpan="2" HorizontalAlignment="Right" Width="130" />
-                <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Margin="0,0,-0.2,0" Grid.Row="1">
-                    <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" />
-                    <Button x:Name="btn_Play" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" />
-                </StackPanel>
                 <StackPanel x:Name="confirmRegion" Visibility="Hidden" HorizontalAlignment="Left" Width="1621" Margin="0,-53,-260.2,-178" Background="#E52B98CE" Grid.RowSpan="2">
                     <StackPanel  Height="597" Margin="0,150,50,0" Background="#E5005572" HorizontalAlignment="Center" Width="1157" VerticalAlignment="Center">
                         <Border BorderBrush="#FF045B79" BorderThickness="10" CornerRadius="12" MinHeight="90" VerticalAlignment="Top" Height="596" Margin="0,0,-0.2,0">

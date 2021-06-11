@@ -40,14 +40,14 @@
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="#BFFFFFFF" StrokeThickness="3" Radius="116" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				<UserControls:CircularProgressBar Percentage="100" SegmentColor="{DynamicResource SIVIRE_LigthBlueBrush}" StrokeThickness="10" Radius="141" HorizontalAlignment="Center" VerticalAlignment="Center" />
 				
-				<Label x:Name="label" Content="{Binding CurrentRepetition, ElementName=userControl}" FontSize="110" Height="150" Width="150" Margin="0,45,130,105" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Right" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
+				<Label x:Name="label" Content="{Binding CurrentRepetition, ElementName=userControl}" FontSize="130" Height="160" Width="150" Margin="0,40,140,105" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" FontWeight="Bold" HorizontalAlignment="Right" Foreground="{Binding SegmentColor, ElementName=circularProgress}" >
 					<Label.Effect>
 						<DropShadowEffect/>
 					</Label.Effect>
 				</Label>
                 <Label Content="/" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="119.441,109.629,80.558,90.37" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
-                <Label Content="{Binding NumRepetitions, ElementName=userControl}" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="172,120,0,80" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
-                <Label Content="REPS" FontSize="40" FontWeight="Bold" Height="100" Margin="64.176,178.159,65.493,21.84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                <Label Content="{Binding NumRepetitions, ElementName=userControl}" FontSize="70" FontWeight="Bold" Height="100" Width="100" Margin="180,120,0,80" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                <Label Content="REPETICIÓN" FontSize="25" FontWeight="Bold" Height="100" Margin="64.176,178.159,65.493,21.84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
             </Grid>
         </Viewbox>
     </Grid>

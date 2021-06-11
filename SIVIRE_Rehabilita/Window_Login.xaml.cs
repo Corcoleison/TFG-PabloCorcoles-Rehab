@@ -66,7 +66,8 @@ namespace SIVIRE_Rehabilita
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             List<Exercise> exercises = new List<Exercise>();            
             exercises.Add(XMLParser.loadExercise("\\ejercicioDependencia.xml"));
 

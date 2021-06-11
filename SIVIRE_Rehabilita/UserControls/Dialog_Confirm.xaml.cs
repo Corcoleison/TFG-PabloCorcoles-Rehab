@@ -44,9 +44,10 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void Ok_Click(object sender, RoutedEventArgs e)
         {
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             try
             {
-                new SoundPlayer(@"Sounds\click.wav").Play();
                 this.OkSelected(this, new EventArgs());
             }
             catch (System.NullReferenceException) { }
@@ -54,9 +55,10 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             try
             {
-                new SoundPlayer(@"Sounds\click.wav").Play();
                 this.CancelSelected(this, new EventArgs());
             }
             catch (System.NullReferenceException) { }

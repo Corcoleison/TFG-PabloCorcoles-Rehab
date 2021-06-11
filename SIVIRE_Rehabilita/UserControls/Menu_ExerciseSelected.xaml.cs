@@ -45,7 +45,8 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void start_Click(object sender, RoutedEventArgs e)
         {
-            new SoundPlayer(@"Sounds\click.wav").Play();
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             try
             {
                 this.StartExercise(this.Exercise, new EventArgs());
