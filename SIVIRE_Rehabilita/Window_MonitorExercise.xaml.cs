@@ -402,6 +402,8 @@ namespace SIVIRE_Rehabilita
             List<Message> aux = new List<Message>();
             aux.Add(new Message("Ejercicio pausado", new List<JointType>(), MessageType.Guide));
             this.writeMessages(aux);
+            this.btn_Play.Visibility = Visibility.Visible;
+            this.btn_Pause.Visibility = Visibility.Hidden;
         }
 
         private void Resume_Click(object sender, RoutedEventArgs e)
@@ -409,6 +411,8 @@ namespace SIVIRE_Rehabilita
             SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
             click_sound.Play();
             this.isExcercisePaused = false;
+            this.btn_Pause.Visibility = Visibility.Visible;
+            this.btn_Play.Visibility = Visibility.Hidden;
         }
 
         private void Window_Confirm()
