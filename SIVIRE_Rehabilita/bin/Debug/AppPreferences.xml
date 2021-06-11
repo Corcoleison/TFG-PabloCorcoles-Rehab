@@ -20,4 +20,14 @@
       <ReadMsgEnabled>True</ReadMsgEnabled>
     </Preferences>
   </User>
+  <User>
+    <NickName>Alberto</NickName>
+    <Password>
+    </Password>
+    <Preferences>
+      <GesturesEnabled>True</GesturesEnabled>
+      <SoundEnabled>True</SoundEnabled>
+      <ReadMsgEnabled>True</ReadMsgEnabled>
+    </Preferences>
+  </User>
 </Users>

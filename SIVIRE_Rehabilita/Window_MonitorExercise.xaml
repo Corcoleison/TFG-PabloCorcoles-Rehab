@@ -120,8 +120,8 @@
                                 <DropShadowEffect ShadowDepth="1"/>
                             </Border.Effect>
                             <Grid>
-                                <Label Content="Ejercicio:" Foreground="White" FontSize="72" Margin="0,34.4,668.2,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
-                                <Label x:Name="exerciseName" Foreground="White" FontSize="72" Margin="0,34,40.6,0" HorizontalAlignment="Right" Width="623" Height="121" VerticalAlignment="Top"/>
+                                <Label Content="Ejercicio:" Foreground="White" FontSize="72" Margin="0,34,718.6,0" HorizontalAlignment="Right" Width="294" Height="121" VerticalAlignment="Top"/>
+                                <Label x:Name="exerciseName" Foreground="White" FontSize="60" Margin="0,47,99.6,0" HorizontalAlignment="Right" Width="623" Height="121" VerticalAlignment="Top"/>
                                 <Label x:Name="exerciseDes" Foreground="White" FontSize="50" Margin="0,232,605.6,0" HorizontalAlignment="Right" Width="421" Height="236" VerticalAlignment="Top"/>
                                 <GridSplitter Margin="0,0,551.6,108.8" Width="7" Height="236" VerticalAlignment="Bottom"/>
                                 <Image x:Name="exerciseImg" Height="236" Margin="739,0,99.6,108.8" VerticalAlignment="Bottom"/>

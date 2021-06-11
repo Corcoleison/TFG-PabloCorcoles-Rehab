@@ -15,7 +15,7 @@
 		<StackPanel Grid.Column="0" Orientation="Vertical" Margin="0,0,30,0">
 			<Label Style="{StaticResource HeaderStyle}" Content="Tablas de ejercicios"/>
 			<Grid VerticalAlignment="Bottom">
-				<ItemsControl x:Name="itemsControl" ItemTemplate="{StaticResource RoutineItemTemplate}" ButtonBase.Click="routine_Click" Background="#BFFFFFFF" ItemsSource="{Binding Routines, ElementName=userControl}">
+				<ItemsControl x:Name="itemsControl" ToolTip="Ver ejercicios de esta rutina" ItemTemplate="{StaticResource RoutineItemTemplate}" ButtonBase.Click="routine_Click" Background="#BFFFFFFF" ItemsSource="{Binding Routines, ElementName=userControl}">
 					<ItemsControl.ItemsPanel>
 						<ItemsPanelTemplate>
 							<WrapPanel VerticalAlignment="Center" Orientation="Horizontal"/>
@@ -40,13 +40,13 @@
 					<TextBlock Text="Estadísticas" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>
 			</Button>
-			<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="settings_Click" >
+            <Button ToolTip="Ir a ajustes de la aplicación" Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="settings_Click" >
                 <StackPanel Background="{DynamicResource SIVIRE_DarkBlueBrush}">
 					<TextBlock Text="&#xe115;" Style="{DynamicResource ButtonIconStyle}" />
 					<TextBlock Text="Ajustes" Style="{DynamicResource ButtonTextStyle}"/>
 				</StackPanel>
 			</Button>
-            <Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="start_Click" >
+            <Button ToolTip="Comienza el siguiente ejercicio" Grid.Column="1" Style="{DynamicResource KinectTileButton}" Width="250" Height="120" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="start_Click" >
                 <StackPanel Background="{DynamicResource SIVIRE_DarkGreenBrush}">
                     <TextBlock Text="&#xe102;" Style="{DynamicResource ButtonIconStyle}" />
                     <TextBlock Text="Start" Style="{DynamicResource ButtonTextStyle}" />
