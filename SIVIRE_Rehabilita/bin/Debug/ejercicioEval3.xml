@@ -86,7 +86,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>Sentado</Nombre>
+        <Nombre>Sentado piernas rectas</Nombre>
         <Dificultad>5</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
 		<Articulaciones>
@@ -352,7 +352,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-       <Nombre>Brazos hacia delante</Nombre>
+       <Nombre>Sentado Brazos hacia delante</Nombre>
         <Dificultad>1</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
 		<Articulaciones>
@@ -482,7 +482,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>Espalda hacia delante</Nombre>
+        <Nombre>Sentado Espalda hacia delante</Nombre>
         <Dificultad>5</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
 		<Articulaciones>
@@ -620,7 +620,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>Póngase de pie</Nombre>
+        <Nombre>Posicion Normal</Nombre>
         <Dificultad>5</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
 		<Articulaciones>

@@ -272,6 +272,18 @@
     <None Include="3dAvatar\DePie\PosturaInicial.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="3dAvatar\Sentado\SentadoBrazosDelante.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoBrazosDelante.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoEspaldaDelante.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoEspaldaDelante.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArriba.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -282,6 +294,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiesAtras.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiesAtras.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="3dAvatar\Sentado\SentadoRectoTodo.mtl">

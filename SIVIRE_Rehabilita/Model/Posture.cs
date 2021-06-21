@@ -371,25 +371,44 @@ namespace SIVIRE_Rehabilita.Model
             ObjReader CurrentHelixObjReader = new ObjReader();
             Model3DGroup MyModel = new Model3DGroup();
             string nameCapital = this.name.ToUpper();
-            if(nameCapital.Contains("POSICION NORMAL"))
+            switch (nameCapital)
             {
-                
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/PosturaInicial.obj");
-            }else if (nameCapital.Contains("BRAZO") && nameCapital.Contains("DERECHO") && nameCapital.Contains("LEVANTADO"))
-            {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/BrazoDerechoArriba.obj");
-            }else if(nameCapital.Contains("BRAZOS") && nameCapital.Contains("LEVANTADOS"))
-            {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/AmbosBrazosArriba.obj");
-            }else if (nameCapital.Contains("PIERNAS") && nameCapital.Contains("RECTAS"))
-            {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoRectoTodo.obj");
-            }else if (nameCapital.Contains("PIERNA") && nameCapital.Contains("DERECHA") && nameCapital.Contains("ARRIBA") && nameCapital.Contains("POCO"))
-            {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArribaPoco.obj");
-            }else if (nameCapital.Contains("PIERNA") && nameCapital.Contains("DERECHA") && nameCapital.Contains("ARRIBA"))
-            {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArriba.obj");
+                case string a when a.Contains("POSICION NORMAL"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/PosturaInicial.obj");
+                    break;
+
+                case string a when a.Contains("BRAZO") && a.Contains("DERECHO") && a.Contains("LEVANTADO"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/BrazoDerechoArriba.obj");
+                    break;
+
+                case string a when a.Contains("BRAZOS") && a.Contains("LEVANTADOS"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/AmbosBrazosArriba.obj");
+                    break;
+
+                case string a when a.Contains("SENTADO") &&  a.Contains("BRAZOS") && a.Contains("DELANTE"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoBrazosDelante.obj");
+                    break;
+
+                case string a when a.Contains("SENTADO") && a.Contains("ESPALDA") && a.Contains("DELANTE"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoEspaldaDelante.obj");
+                    break;
+
+                case string a when a.Contains("PIERNA") && a.Contains("DERECHA") && a.Contains("ARRIBA") && a.Contains("POCO"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArribaPoco.obj");
+                    break;
+
+                case string a when a.Contains("PIERNA") && a.Contains("DERECHA") && a.Contains("ARRIBA"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArriba.obj");
+                    break;
+
+                case string a when a.Contains("PIERNAS") && a.Contains("RECTAS"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoRectoTodo.obj");
+                    break;
+
+                case string a when a.Contains("PIERNAS") && a.Contains("ATRÁS"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiesAtras.obj");
+                    break;
+
             }
 
             //It is more complex to identify when the transition is being done

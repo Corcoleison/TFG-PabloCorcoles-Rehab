@@ -386,3 +386,9 @@ E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabil
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.obj
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoRectoTodo.mtl
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoRectoTodo.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoBrazosDelante.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoBrazosDelante.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoEspaldaDelante.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoEspaldaDelante.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiesAtras.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiesAtras.obj
