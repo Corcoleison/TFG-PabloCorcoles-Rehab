@@ -49,10 +49,6 @@ namespace SIVIRE_Rehabilita
         bool isExcercisePaused;
         int repetitionErrors;
 
-        Model3DGroup avatarGroupModel;
-
-        Model3D avatarModel;
-
         #endregion
 
 
@@ -127,6 +123,33 @@ namespace SIVIRE_Rehabilita
         {
             foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
             //gridLines.Visible = false;
+        }
+
+        private async void getAnimationAvatar()
+        {
+            while (true)
+            {
+                Posture previous = this.exercise.CurrentPosture;
+                if (this.exercise.IndexCurrentPosture > 0)
+                {
+                    previous = this.exercise.Postures[this.exercise.IndexCurrentPosture - 1];
+                }
+                Posture current = this.exercise.CurrentPosture;
+                await Task.Delay(1500);
+                foo.Content = previous.GetPostureAvatar();
+                await Task.Delay(1500);
+                foo.Content = current.GetPostureAvatar();
+                previous = null;
+                current = null;
+                if (this.exercise.Finished)
+                {
+                    break;
+                }
+            }
+            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
+
+
+
         }
 
         void drawCascadeSkeletons()
@@ -350,7 +373,7 @@ namespace SIVIRE_Rehabilita
             {
                 this.writeMessages(new List<Message>());
                 this.setBindings();
-                this.getCurrentAvatar();
+                this.getAnimationAvatar();
             }), null);
         }
 
@@ -359,8 +382,8 @@ namespace SIVIRE_Rehabilita
             SoundPlayer postureReached_sound = new SoundPlayer(Properties.Resources.postureReached);
             postureReached_sound.Play();
             this.setBindings();
+            this.getAnimationAvatar();
             this.showProgressMessageAsync();
-            this.getCurrentAvatar();
 
         }
 
@@ -370,7 +393,7 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.repetitionsProgressBar.next();
             this.setBindings();
-            this.getCurrentAvatar();
+            this.getAnimationAvatar();
             this.showProgressMessageAsync();
 
         }
