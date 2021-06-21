@@ -1,4 +1,5 @@
-﻿using Microsoft.Kinect;
+﻿using HelixToolkit.Wpf;
+using Microsoft.Kinect;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -363,6 +364,26 @@ namespace SIVIRE_Rehabilita.Model
             this.skeletonScaled = transformSkeleton(this.Skeleton, skeletonOfUser);
             //this.skeletonScaled = translateScaledSkeleton(this.skeleton.Joints, this.skeleton, skeletonOfUser);
             this.skeletonScaled.drawSkeleton(kinectSensor, drawingGroup, PostureStageType.None);
+        }
+
+        public Model3DGroup GetPostureAvatar()
+        {
+            ObjReader CurrentHelixObjReader = new ObjReader();
+            Model3DGroup MyModel = new Model3DGroup();
+            string nameCapital = this.name.ToUpper();
+            if(nameCapital.Contains("POSICION NORMAL"))
+            {
+                
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/PosturaInicial.obj");
+            }else if (nameCapital.Contains("BRAZO") && nameCapital.Contains("DERECHO") && nameCapital.Contains("LEVANTADO"))
+            {
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/BrazoDerechoArriba.obj");
+            }else if(nameCapital.Contains("BRAZOS") && nameCapital.Contains("LEVANTADOS"))
+            {
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/AmbosBrazosArriba.obj");
+            }
+
+            return MyModel;
         }
 
         #endregion

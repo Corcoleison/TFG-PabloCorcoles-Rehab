@@ -15,6 +15,8 @@ using System.Speech.Synthesis;
 using System.Windows.Controls;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using HelixToolkit.Wpf;
+using System.Windows.Media.Media3D;
 
 namespace SIVIRE_Rehabilita
 {
@@ -47,6 +49,10 @@ namespace SIVIRE_Rehabilita
         bool isExcercisePaused;
         int repetitionErrors;
 
+        Model3DGroup avatarGroupModel;
+
+        Model3D avatarModel;
+
         #endregion
 
 
@@ -58,6 +64,8 @@ namespace SIVIRE_Rehabilita
         {
             get { return this.exercise; }
         }
+
+        public Model3D our_Model { get; set; }
         #endregion
 
 
@@ -65,6 +73,7 @@ namespace SIVIRE_Rehabilita
         {
             this.exercise = exercise;
             InitializeComponent();
+            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -83,11 +92,13 @@ namespace SIVIRE_Rehabilita
             posture_Skeleton.Source = new DrawingImage(this.postureDrawingGroup);
             user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);
             
-            
-
+     
             //Confirm Windows
             Window_Confirm();
-            
+
+            // Display the model
+            getCurrentAvatar();
+
         }
 
         private void initializeKinect()
@@ -110,6 +121,12 @@ namespace SIVIRE_Rehabilita
 
                 
             }
+        }
+
+        private void getCurrentAvatar()
+        {
+            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
+            //gridLines.Visible = false;
         }
 
         void drawCascadeSkeletons()
@@ -333,6 +350,7 @@ namespace SIVIRE_Rehabilita
             {
                 this.writeMessages(new List<Message>());
                 this.setBindings();
+                this.getCurrentAvatar();
             }), null);
         }
 
@@ -342,6 +360,7 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.setBindings();
             this.showProgressMessageAsync();
+            this.getCurrentAvatar();
 
         }
 
@@ -351,7 +370,9 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.repetitionsProgressBar.next();
             this.setBindings();
-            
+            this.getCurrentAvatar();
+            this.showProgressMessageAsync();
+
         }
 
         private async Task showProgressMessageAsync()

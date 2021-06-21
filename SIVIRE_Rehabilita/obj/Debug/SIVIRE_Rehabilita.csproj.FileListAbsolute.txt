@@ -366,3 +366,15 @@ E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabil
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojAssemblyReference.cache
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BASEmodel.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BASEmodel.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\HelixToolkit.dll
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\HelixToolkit.Wpf.dll
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\HelixToolkit.xml
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\HelixToolkit.Wpf.xml
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\PosturaInicial.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\PosturaInicial.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\AmbosBrazosArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\AmbosBrazosArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoArriba.obj
