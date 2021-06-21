@@ -260,6 +260,12 @@
     <None Include="3dAvatar\BrazoDerechoArriba.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="3dAvatar\BrazoDerechoPocoArriba.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\BrazoDerechoPocoArriba.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="3dAvatar\PosturaInicial.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
