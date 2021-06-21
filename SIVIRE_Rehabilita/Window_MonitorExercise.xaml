@@ -130,7 +130,7 @@
                                 <ScaleTransform ScaleX="0.4" ScaleY="0.4"/>
                                 <SkewTransform/>
                                 <RotateTransform Angle="190"/>
-                                <TranslateTransform X="650" Y="-290"/>
+                                <TranslateTransform X="570" Y="-320"/>
                             </TransformGroup>
                         </HelixToolkit:HelixViewport3D.RenderTransform>
                         <!-- Remember to add light to the scene -->
