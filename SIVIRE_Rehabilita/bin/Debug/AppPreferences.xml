@@ -22,7 +22,8 @@
   </User>
   <User>
     <NickName>Alberto</NickName>
-    <Password>t/yzdtoxC7s=</Password>
+    <Password>
+    </Password>
     <Preferences>
       <GesturesEnabled>True</GesturesEnabled>
       <SoundEnabled>True</SoundEnabled>

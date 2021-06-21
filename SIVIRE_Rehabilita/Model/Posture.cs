@@ -374,13 +374,22 @@ namespace SIVIRE_Rehabilita.Model
             if(nameCapital.Contains("POSICION NORMAL"))
             {
                 
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/PosturaInicial.obj");
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/PosturaInicial.obj");
             }else if (nameCapital.Contains("BRAZO") && nameCapital.Contains("DERECHO") && nameCapital.Contains("LEVANTADO"))
             {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/BrazoDerechoArriba.obj");
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/BrazoDerechoArriba.obj");
             }else if(nameCapital.Contains("BRAZOS") && nameCapital.Contains("LEVANTADOS"))
             {
-                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/AmbosBrazosArriba.obj");
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/AmbosBrazosArriba.obj");
+            }else if (nameCapital.Contains("PIERNAS") && nameCapital.Contains("RECTAS"))
+            {
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoRectoTodo.obj");
+            }else if (nameCapital.Contains("PIERNA") && nameCapital.Contains("DERECHA") && nameCapital.Contains("ARRIBA") && nameCapital.Contains("POCO"))
+            {
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArribaPoco.obj");
+            }else if (nameCapital.Contains("PIERNA") && nameCapital.Contains("DERECHA") && nameCapital.Contains("ARRIBA"))
+            {
+                MyModel = CurrentHelixObjReader.Read(@"3dAvatar/Sentado/SentadoPiernaDerechaArriba.obj");
             }
 
             //It is more complex to identify when the transition is being done

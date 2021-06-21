@@ -48,6 +48,7 @@ namespace SIVIRE_Rehabilita
         Exercise exercise;
         bool isExcercisePaused;
         int repetitionErrors;
+        bool animationLoop;
 
         #endregion
 
@@ -93,7 +94,7 @@ namespace SIVIRE_Rehabilita
             Window_Confirm();
 
             // Display the model
-            getCurrentAvatar();
+            getCurrentAvatarAnimation();
 
         }
 
@@ -119,37 +120,24 @@ namespace SIVIRE_Rehabilita
             }
         }
 
-        private void getCurrentAvatar()
+        private async void getCurrentAvatarAnimation()
         {
-            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
-            //gridLines.Visible = false;
-        }
-
-        private async void getAnimationAvatar()
-        {
+            List<Model3DGroup> listAvatars = exercise.getExerciseAnimation();
             while (true)
             {
-                Posture previous = this.exercise.CurrentPosture;
-                if (this.exercise.IndexCurrentPosture > 0)
+                foreach(Model3DGroup avatar in listAvatars)
                 {
-                    previous = this.exercise.Postures[this.exercise.IndexCurrentPosture - 1];
+                    foo.Content = avatar;
+                    await Task.Delay(1500);
                 }
-                Posture current = this.exercise.CurrentPosture;
-                await Task.Delay(1500);
-                foo.Content = previous.GetPostureAvatar();
-                await Task.Delay(1500);
-                foo.Content = current.GetPostureAvatar();
-                previous = null;
-                current = null;
+
                 if (this.exercise.Finished)
                 {
                     break;
                 }
             }
             foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
-
-
-
+            //gridLines.Visible = false;
         }
 
         void drawCascadeSkeletons()
@@ -373,7 +361,6 @@ namespace SIVIRE_Rehabilita
             {
                 this.writeMessages(new List<Message>());
                 this.setBindings();
-                this.getAnimationAvatar();
             }), null);
         }
 
@@ -382,7 +369,6 @@ namespace SIVIRE_Rehabilita
             SoundPlayer postureReached_sound = new SoundPlayer(Properties.Resources.postureReached);
             postureReached_sound.Play();
             this.setBindings();
-            this.getAnimationAvatar();
             this.showProgressMessageAsync();
 
         }
@@ -393,7 +379,6 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.repetitionsProgressBar.next();
             this.setBindings();
-            this.getAnimationAvatar();
             this.showProgressMessageAsync();
 
         }
