@@ -93,8 +93,11 @@ namespace SIVIRE_Rehabilita
             //Confirm Windows
             Window_Confirm();
 
-            // Display the model
-            getCurrentAvatarAnimation();
+            // Display the full animation
+            //getCurrentAvatarAnimation();
+
+            //Display the animation by each posture one animation
+            getCurrentAvatarAnimationSteps();
 
         }
 
@@ -130,6 +133,31 @@ namespace SIVIRE_Rehabilita
                     foo.Content = avatar;
                     await Task.Delay(1500);
                 }
+
+                if (this.exercise.Finished)
+                {
+                    break;
+                }
+            }
+            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
+            //gridLines.Visible = false;
+        }
+
+        private async void getCurrentAvatarAnimationSteps()
+        {
+            while (true)
+            {
+                Posture previous = this.exercise.CurrentPosture;
+                if (this.exercise.IndexCurrentPosture > 0)
+                {
+                    previous = this.exercise.Postures[this.exercise.IndexCurrentPosture - 1];
+                }
+                Posture current = this.exercise.CurrentPosture;
+
+                foo.Content = previous.GetPostureAvatar();
+                await Task.Delay(1500);
+                foo.Content = current.GetPostureAvatar();
+                await Task.Delay(1500);
 
                 if (this.exercise.Finished)
                 {
