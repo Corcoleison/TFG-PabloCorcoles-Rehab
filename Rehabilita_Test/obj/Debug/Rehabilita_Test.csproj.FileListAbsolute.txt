@@ -13,21 +13,33 @@ E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesM
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.csproj.CoreCompileInputs.cache
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.dll
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\Rehabilita_Test\obj\Debug\Rehabilita_Test.pdb
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\AmbosBrazosArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\AmbosBrazosArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BASEmodel.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BASEmodel.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BrazoDerechoArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BrazoDerechoArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BrazoDerechoPocoArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\BrazoDerechoPocoArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\PosturaInicial.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\3dAvatar\PosturaInicial.obj
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Rehabilita_Test.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Rehabilita_Test.pdb
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.Kinect.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\SIVIRE_Rehabilita.exe
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\System.Windows.Interactivity.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\HelixToolkit.Wpf.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.Speech.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\SIVIRE_Rehabilita.pdb
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\SIVIRE_Rehabilita.exe.config
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.Kinect.xml
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\HelixToolkit.Wpf.xml
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.csprojAssemblyReference.cache
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.csproj.CoreCompileInputs.cache
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.csproj.CopyComplete
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.dll
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\obj\Debug\Rehabilita_Test.pdb
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\Rehabilita_Test\bin\Debug\System.Windows.Interactivity.dll

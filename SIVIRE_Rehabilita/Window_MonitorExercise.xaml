@@ -2,7 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:k="http://schemas.microsoft.com/kinect/2014" 
-        xmlns:UserControls="clr-namespace:SIVIRE_Rehabilita.UserControls" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" x:Name="window" x:Class="SIVIRE_Rehabilita.Window_MonitorExercise" 
+        xmlns:UserControls="clr-namespace:SIVIRE_Rehabilita.UserControls" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" x:Name="window" x:Class="SIVIRE_Rehabilita.Window_MonitorExercise"
+        xmlns:HelixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
         WindowStyle="None" Height="768" Width="1366" Loaded="Window_Loaded" WindowState="Maximized" Closed="Window_Closed" ResizeMode="NoResize" Background="{DynamicResource SIVIRE_GradientBrush}">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -58,40 +59,86 @@
                     <Image x:Name="user_Skeleton"/>
                     <Border x:Name="border_Skeleton0" Width="120" Height="120" Background="#CCC700FF" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-800" Y="120" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-850" Y="120"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton0" Margin="0,0,-30,0" Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="217" Height="227" VerticalAlignment="Bottom"/>
                     </Border>
                     <Border x:Name="border_Skeleton1" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-680" Y="160" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-670" Y="160"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton1" Margin="0,0,-27,0" Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="217" Height="227" VerticalAlignment="Bottom"/>
                     </Border>
                     <Border x:Name="border_Skeleton2" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-560" Y="220" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-490" Y="220"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton2" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                     <Border x:Name="border_Skeleton3" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-800" Y="250" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-850" Y="305"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton3" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                     <Border x:Name="border_Skeleton4"  Width="120" Height="120" Background="#CC747474" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-680" Y="300" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-670" Y="345"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton4" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                     <Border x:Name="border_Skeleton5" Margin="1380,800,0,0" Width="120" Height="120" Background="#CC747474" CornerRadius="5">
                         <Border.RenderTransform>
-                            <TranslateTransform X="-1240" Y="-50" ></TranslateTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-1180" Y="0"/>
+                            </TransformGroup>
                         </Border.RenderTransform>
                         <Image x:Name="cascade_Skeleton5" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
+                    <!-- The HelixViewport3D supports camera manipulation, and can be used just like the Viewport3D -->
+                    <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="True" RenderTransformOrigin="0.5,0.5">
+                        <HelixToolkit:HelixViewport3D.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="0.4" ScaleY="0.4"/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="190"/>
+                                <TranslateTransform X="650" Y="-290"/>
+                            </TransformGroup>
+                        </HelixToolkit:HelixViewport3D.RenderTransform>
+                        <!-- Remember to add light to the scene -->
+                        <HelixToolkit:SunLight/>
+                        <ModelVisual3D x:Name="foo"/>
+                        <!-- You can also add elements here in the xaml -->
+                        <HelixToolkit:GridLinesVisual3D x:Name="gridLines" Visible="False" Width="8" Length="8" MinorDistance="1" MajorDistance="1" Thickness="0.01"/>
+                    </HelixToolkit:HelixViewport3D>
                 </Grid>
             </Viewbox>
         </Border>

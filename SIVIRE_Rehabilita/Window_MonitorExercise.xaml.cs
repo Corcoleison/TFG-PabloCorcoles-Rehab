@@ -15,6 +15,8 @@ using System.Speech.Synthesis;
 using System.Windows.Controls;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using HelixToolkit.Wpf;
+using System.Windows.Media.Media3D;
 
 namespace SIVIRE_Rehabilita
 {
@@ -58,6 +60,8 @@ namespace SIVIRE_Rehabilita
         {
             get { return this.exercise; }
         }
+
+        public Model3D our_Model { get; set; }
         #endregion
 
 
@@ -65,6 +69,7 @@ namespace SIVIRE_Rehabilita
         {
             this.exercise = exercise;
             InitializeComponent();
+            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -83,11 +88,13 @@ namespace SIVIRE_Rehabilita
             posture_Skeleton.Source = new DrawingImage(this.postureDrawingGroup);
             user_Skeleton.Source = new DrawingImage(this.userDrawingGroup);
             
-            
-
+     
             //Confirm Windows
             Window_Confirm();
-            
+
+            // Display the model
+            getCurrentAvatar();
+
         }
 
         private void initializeKinect()
@@ -110,6 +117,39 @@ namespace SIVIRE_Rehabilita
 
                 
             }
+        }
+
+        private void getCurrentAvatar()
+        {
+            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
+            //gridLines.Visible = false;
+        }
+
+        private async void getAnimationAvatar()
+        {
+            while (true)
+            {
+                Posture previous = this.exercise.CurrentPosture;
+                if (this.exercise.IndexCurrentPosture > 0)
+                {
+                    previous = this.exercise.Postures[this.exercise.IndexCurrentPosture - 1];
+                }
+                Posture current = this.exercise.CurrentPosture;
+                await Task.Delay(1500);
+                foo.Content = previous.GetPostureAvatar();
+                await Task.Delay(1500);
+                foo.Content = current.GetPostureAvatar();
+                previous = null;
+                current = null;
+                if (this.exercise.Finished)
+                {
+                    break;
+                }
+            }
+            foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
+
+
+
         }
 
         void drawCascadeSkeletons()
@@ -333,6 +373,7 @@ namespace SIVIRE_Rehabilita
             {
                 this.writeMessages(new List<Message>());
                 this.setBindings();
+                this.getAnimationAvatar();
             }), null);
         }
 
@@ -341,6 +382,7 @@ namespace SIVIRE_Rehabilita
             SoundPlayer postureReached_sound = new SoundPlayer(Properties.Resources.postureReached);
             postureReached_sound.Play();
             this.setBindings();
+            this.getAnimationAvatar();
             this.showProgressMessageAsync();
 
         }
@@ -351,7 +393,9 @@ namespace SIVIRE_Rehabilita
             postureReached_sound.Play();
             this.repetitionsProgressBar.next();
             this.setBindings();
-            
+            this.getAnimationAvatar();
+            this.showProgressMessageAsync();
+
         }
 
         private async Task showProgressMessageAsync()
