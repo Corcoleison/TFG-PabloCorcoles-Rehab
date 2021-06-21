@@ -242,34 +242,52 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="3dAvatar\AmbosBrazosArriba.mtl">
+    <None Include="3dAvatar\DePie\AmbosBrazosArriba.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\AmbosBrazosArriba.obj">
+    <None Include="3dAvatar\DePie\AmbosBrazosArriba.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BASEmodel.mtl">
+    <None Include="3dAvatar\DePie\BASEmodel.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BASEmodel.obj">
+    <None Include="3dAvatar\DePie\BASEmodel.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BrazoDerechoArriba.mtl">
+    <None Include="3dAvatar\DePie\BrazoDerechoArriba.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BrazoDerechoArriba.obj">
+    <None Include="3dAvatar\DePie\BrazoDerechoArriba.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BrazoDerechoPocoArriba.mtl">
+    <None Include="3dAvatar\DePie\BrazoDerechoPocoArriba.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\BrazoDerechoPocoArriba.obj">
+    <None Include="3dAvatar\DePie\BrazoDerechoPocoArriba.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\PosturaInicial.mtl">
+    <None Include="3dAvatar\DePie\PosturaInicial.mtl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="3dAvatar\PosturaInicial.obj">
+    <None Include="3dAvatar\DePie\PosturaInicial.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArriba.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArriba.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoRectoTodo.mtl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="3dAvatar\Sentado\SentadoRectoTodo.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Design\projectGuides.guides" />

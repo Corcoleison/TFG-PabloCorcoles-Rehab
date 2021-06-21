@@ -9,6 +9,7 @@ using System.Threading;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows;
+using System.Windows.Media.Media3D;
 
 namespace SIVIRE_Rehabilita.Model
 {
@@ -181,6 +182,16 @@ namespace SIVIRE_Rehabilita.Model
             this.currentRepetition = 0;
             this.CurrentPosture.restart();
             this.IndexCurrentPosture = 0;
+        }
+
+        public List<Model3DGroup> getExerciseAnimation()
+        {
+            List<Model3DGroup> listAvatars = new List<Model3DGroup>();
+            foreach(Posture posture in postures)
+            {
+                listAvatars.Add(posture.GetPostureAvatar());
+            }
+            return listAvatars;
         }
 
         #endregion

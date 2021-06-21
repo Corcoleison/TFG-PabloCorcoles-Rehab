@@ -311,16 +311,6 @@ E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesM
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csproj.CopyComplete
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
 E:\OneDrive_UCLM\OneDrive - Universidad de Castilla-La Mancha\TFG_PabloCorcolesMolina\Sistema\Rehabilita vET_Prueba_Pablo\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\AmbosBrazosArriba.mtl
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\AmbosBrazosArriba.obj
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BASEmodel.mtl
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BASEmodel.obj
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoArriba.mtl
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoArriba.obj
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoPocoArriba.mtl
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\BrazoDerechoPocoArriba.obj
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\PosturaInicial.mtl
-E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\PosturaInicial.obj
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe.config
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.exe
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\SIVIRE_Rehabilita.pdb
@@ -380,3 +370,19 @@ E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabil
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.exe
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.pdb
 E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\obj\Debug\SIVIRE_Rehabilita.csprojAssemblyReference.cache
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\AmbosBrazosArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\AmbosBrazosArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BASEmodel.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BASEmodel.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BrazoDerechoArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BrazoDerechoArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BrazoDerechoPocoArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\BrazoDerechoPocoArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\PosturaInicial.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\DePie\PosturaInicial.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiernaDerechaArriba.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiernaDerechaArriba.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoPiernaDerechaArribaPoco.obj
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoRectoTodo.mtl
+E:\Carpetas de Usuario\Escritorio\TFG_GIT\TFG-PabloCorcoles-Rehab\SIVIRE_Rehabilita\bin\Debug\3dAvatar\Sentado\SentadoRectoTodo.obj

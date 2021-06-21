@@ -86,7 +86,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>NombrePostura</Nombre>
+        <Nombre>Sentado con las piernas rectas</Nombre>
         <Dificultad>10</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
         <Articulaciones>
@@ -218,7 +218,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>NombrePostura</Nombre>
+        <Nombre>Sentado pierna derecha arriba</Nombre>
         <Dificultad>10</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
         <Articulaciones>
@@ -342,7 +342,7 @@
       </Esqueleto>
       <PosturasTransicion />
       <Propiedades>
-        <Nombre>NombrePostura</Nombre>
+        <Nombre>Sentado pierna derecha arriba poco</Nombre>
         <Dificultad>10</Dificultad>
         <ImportaPosicion>false</ImportaPosicion>
         <Articulaciones>
