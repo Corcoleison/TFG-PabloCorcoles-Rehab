@@ -40,8 +40,8 @@
 					<TextBlock Text="29/1/2016"/>
 				</StackPanel>
 			</Label>
-			<Label Content="Descripción:...." FontSize="40" />
-		</StackPanel>
+            <Label Content="Descripción:...." FontSize="40" />
+        </StackPanel>
 
 		<Button Grid.Column="1" Style="{DynamicResource KinectTileButton}" Click="start_Click" Width="200" Height="120
 		" HorizontalAlignment="Right" VerticalAlignment="Bottom" >

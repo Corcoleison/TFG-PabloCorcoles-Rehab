@@ -187,8 +187,19 @@ namespace SIVIRE_Rehabilita.Model
         public List<Model3DGroup> getExerciseAnimation()
         {
             List<Model3DGroup> listAvatars = new List<Model3DGroup>();
-            foreach(Posture posture in postures)
+            List<Model3DGroup> listTransitionAvatars = new List<Model3DGroup>();
+            foreach (Posture posture in postures)
             {
+                EndPosture endposture = (EndPosture)posture;
+                bool endPostureBool = posture is EndPosture;
+                if (endPostureBool && endposture.Transition.Count > 0)
+                {
+                    listTransitionAvatars = endposture.GetTransitionPostureAvatars();
+                    foreach (Model3DGroup transitionAvatar in listTransitionAvatars)
+                    {
+                        listAvatars.Add(transitionAvatar);
+                    }
+                }
                 listAvatars.Add(posture.GetPostureAvatar());
             }
             return listAvatars;

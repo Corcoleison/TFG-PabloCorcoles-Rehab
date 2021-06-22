@@ -94,10 +94,10 @@ namespace SIVIRE_Rehabilita
             Window_Confirm();
 
             // Display the full animation
-            //getCurrentAvatarAnimation();
+            getCurrentAvatarAnimation();
 
             //Display the animation by each posture one animation
-            getCurrentAvatarAnimationSteps();
+            //getCurrentAvatarAnimationSteps();
 
         }
 
@@ -140,11 +140,12 @@ namespace SIVIRE_Rehabilita
                 }
             }
             foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
-            //gridLines.Visible = false;
+            //gridLines.Visible = false; //It is already invisible in the xaml design
         }
 
         private async void getCurrentAvatarAnimationSteps()
         {
+            List<Model3DGroup> listTransitionAvatars = new List<Model3DGroup>();
             while (true)
             {
                 Posture previous = this.exercise.CurrentPosture;
@@ -154,8 +155,20 @@ namespace SIVIRE_Rehabilita
                 }
                 Posture current = this.exercise.CurrentPosture;
 
+                EndPosture endCurrentPosture = (EndPosture)current;
+                bool endCurrentPostureBool = current is EndPosture;
+
                 foo.Content = previous.GetPostureAvatar();
                 await Task.Delay(1500);
+                if (endCurrentPostureBool && endCurrentPosture.Transition.Count > 0)
+                {
+                    listTransitionAvatars = endCurrentPosture.GetTransitionPostureAvatars();
+                    foreach(Model3DGroup avatar in listTransitionAvatars)
+                    {
+                        foo.Content = avatar;
+                        await Task.Delay(1500);
+                    }
+                }
                 foo.Content = current.GetPostureAvatar();
                 await Task.Delay(1500);
 
@@ -165,7 +178,20 @@ namespace SIVIRE_Rehabilita
                 }
             }
             foo.Content = this.exercise.CurrentPosture.GetPostureAvatar();
-            //gridLines.Visible = false;
+            //gridLines.Visible = false; //It is already invisible in the xaml design
+        }
+
+
+
+        public void getNamesForDescription()
+        {
+            List<string> listPosturesNames = new List<string>();
+            foreach (Posture posture in this.exercise.Postures)
+            {
+                listPosturesNames.Add(posture.Name);
+            }
+            string nameList = string.Join(", ", listPosturesNames);
+            exerciseDes.Content = nameList;
         }
 
         void drawCascadeSkeletons()
