@@ -233,6 +233,18 @@ namespace SIVIRE_Rehabilita.Model
                 this.CurrentStage = PostureStageType.StageGuide;
         }
 
+        public List<Model3DGroup> GetTransitionPostureAvatars()
+        {
+            List<Model3DGroup> AvatarList = new List<Model3DGroup>();
+            if (transition.Count > 0)
+            {
+                foreach(TransitionPosture tran in transition){
+                   AvatarList.Add(tran.GetTransitionPostureAvatar());
+                }
+            }
+            return AvatarList;
+        }
+
         #endregion
 
     }

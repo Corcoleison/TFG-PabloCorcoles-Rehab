@@ -44,5 +44,19 @@ namespace SIVIRE_Rehabilita.Model
 
             return activeErrors;
         }
+
+        public Model3DGroup GetTransitionPostureAvatar()
+        {
+            ObjReader CurrentHelixObjReader = new ObjReader();
+            Model3DGroup MyModel = new Model3DGroup();
+            string nameCapital = this.name.ToUpper();
+            switch (nameCapital)
+            {
+                case string a when a.Contains("BRAZO") && a.Contains("DERECHO") && a.Contains("POCO") && a.Contains("LEVANTADO"):
+                    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/DePie/BrazoDerechoPocoArriba.obj");
+                    break;
+            }
+            return MyModel;
+        }
     }
 }

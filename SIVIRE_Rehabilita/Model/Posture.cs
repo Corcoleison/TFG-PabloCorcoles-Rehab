@@ -411,14 +411,6 @@ namespace SIVIRE_Rehabilita.Model
 
             }
 
-            //It is more complex to identify when the transition is being done
-            //bool isThisATransition = this is TransitionPosture;
-            //if ( isThisATransition && nameCapital.Contains("BRAZO") && nameCapital.Contains("DERECHO") && nameCapital.Contains("POCO") && nameCapital.Contains("LEVANTADO"))
-            //{
-
-            //    MyModel = CurrentHelixObjReader.Read(@"3dAvatar/brazoDerechoPocoArriba.obj");
-            //}
-
             return MyModel;
         }
 
