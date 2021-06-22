@@ -124,7 +124,7 @@
                         <Image x:Name="cascade_Skeleton5" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                     <!-- The HelixViewport3D supports camera manipulation, and can be used just like the Viewport3D -->
-                    <Border Background="{DynamicResource SIVIRE_TransparentDarkGreenBrush}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="1500" CornerRadius="200" >
+                    <Border Background="#7F002CE7" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="1500" CornerRadius="200" >
                         <Border.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform ScaleX="0.35" ScaleY="0.4"/>
@@ -134,7 +134,7 @@
                             </TransformGroup>
                         </Border.RenderTransform>
                     </Border>
-                    <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="True" RenderTransformOrigin="0.5,0.5" >
+                    <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="True" RenderTransformOrigin="0.5,0.5" ShowViewCube="False">
                         <HelixToolkit:HelixViewport3D.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform ScaleX="0.4" ScaleY="0.4"/>
