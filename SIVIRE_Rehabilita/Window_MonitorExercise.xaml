@@ -124,13 +124,23 @@
                         <Image x:Name="cascade_Skeleton5" Margin="0,0,-27,0"  Grid.ColumnSpan="2" IsHitTestVisible="False" HorizontalAlignment="Right" Width="200" Height="120" VerticalAlignment="Bottom" />
                     </Border>
                     <!-- The HelixViewport3D supports camera manipulation, and can be used just like the Viewport3D -->
-                    <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="True" RenderTransformOrigin="0.5,0.5">
+                    <Border Background="{DynamicResource SIVIRE_TransparentDarkGreenBrush}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="1500" CornerRadius="200" >
+                        <Border.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="0.35" ScaleY="0.4"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="480" Y="295"/>
+                            </TransformGroup>
+                        </Border.RenderTransform>
+                    </Border>
+                    <HelixToolkit:HelixViewport3D x:Name="myView" ZoomExtentsWhenLoaded="True" RenderTransformOrigin="0.5,0.5" >
                         <HelixToolkit:HelixViewport3D.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform ScaleX="0.4" ScaleY="0.4"/>
                                 <SkewTransform/>
                                 <RotateTransform Angle="190"/>
-                                <TranslateTransform X="570" Y="-320"/>
+                                <TranslateTransform X="680" Y="300"/>
                             </TransformGroup>
                         </HelixToolkit:HelixViewport3D.RenderTransform>
                         <!-- Remember to add light to the scene -->
@@ -157,9 +167,9 @@
                 <StackPanel x:Name="progress_StackPanel" Visibility="Hidden" HorizontalAlignment="Left" Height="515" Margin="0,26.405,-189.2,0" VerticalAlignment="Top" Width="1550" Grid.Row="1">
                     <Label x:Name="progress_StackPanel_Label" Content="" Foreground="White" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,200,0,0"/>
                 </StackPanel>
-                <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" Margin="0,26.6,-0.2,0" Grid.Row="1" />
-                <Button x:Name="btn_Play" Visibility="Hidden" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" Margin="0,26.6,-0.2,0" Grid.Row="1" />
-                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonStyle}" VerticalAlignment="Top" Height="130" Click="Back_Click" Margin="0,76,-0.2,0" Grid.RowSpan="2" HorizontalAlignment="Right" Width="130" />
+                <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
+                <Button x:Name="btn_Play" Visibility="Hidden" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
+                <Button x:Name="btn_Back" Style="{DynamicResource BackButtonExerciseStyle}" VerticalAlignment="Top" Height="130" Click="Back_Click" Margin="0,93,4,0" Grid.RowSpan="2" HorizontalAlignment="Right" Width="130" />
                 <StackPanel x:Name="confirmRegion" Visibility="Hidden" HorizontalAlignment="Left" Width="1621" Margin="0,-53,-260.2,-178" Background="#E52B98CE" Grid.RowSpan="2">
                     <StackPanel  Height="597" Margin="0,150,50,0" Background="#E5005572" HorizontalAlignment="Center" Width="1157" VerticalAlignment="Center">
                         <Border BorderBrush="#FF045B79" BorderThickness="10" CornerRadius="12" MinHeight="90" VerticalAlignment="Top" Height="596" Margin="0,0,-0.2,0">
