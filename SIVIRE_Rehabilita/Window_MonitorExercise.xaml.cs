@@ -448,15 +448,16 @@ namespace SIVIRE_Rehabilita
             {
                 this.progress_StackPanel_Label.Content = "Perfecto";
                 this.progress_StackPanel.Background = verdeBrush;
-            }else if(this.repetitionErrors > 1 || this.repetitionErrors <= 3)
-            {
-                this.progress_StackPanel_Label.Content = "Bien";
-                this.progress_StackPanel.Background = amarilloBrush;
             }
-            else if (this.repetitionErrors > 3)
+            else if (this.repetitionErrors > 100)
             {
                 this.progress_StackPanel_Label.Content = "Sigue Practicando";
                 this.progress_StackPanel.Background = narajanBrush;
+            }
+            else if(this.repetitionErrors > 1 || this.repetitionErrors <= 100)
+            {
+                this.progress_StackPanel_Label.Content = "Bien";
+                this.progress_StackPanel.Background = amarilloBrush;
             }
             this.repetitionErrors = 0;
             await Task.Delay(3000);
