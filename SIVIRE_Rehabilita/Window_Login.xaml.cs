@@ -69,7 +69,7 @@ namespace SIVIRE_Rehabilita
             SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
             click_sound.Play();
             List<Exercise> exercises = new List<Exercise>();            
-            exercises.Add(XMLParser.loadExercise("\\ejercicioDependencia.xml"));
+            //exercises.Add(XMLParser.loadExercise("\\ejercicioDependencia.xml"));
 
             exercises.Add(XMLParser.loadExercise("\\ejercicioEval1.xml"));
             exercises.Add(XMLParser.loadExercise("\\ejercicioEval2.xml"));
