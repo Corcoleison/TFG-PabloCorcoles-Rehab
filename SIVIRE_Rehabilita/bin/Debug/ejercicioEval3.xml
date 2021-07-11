@@ -124,7 +124,7 @@
                 </Articulaciones>
               </Mensaje>
 			  <Mensaje>
-                <Texto>Coloca la espalda recta</Texto>
+                <Texto>Espalda recta</Texto>
                 <Articulaciones>
                   <SpineMid>true</SpineMid>
 				  <SpineShoulder>true</SpineShoulder>
@@ -257,7 +257,7 @@
                 </Articulaciones>
               </Mensaje>
 			  <Mensaje>
-                <Texto>Coloca la espalda recta</Texto>
+                <Texto>Espalda recta</Texto>
                 <Articulaciones>
                   <SpineMid>true</SpineMid>
 				  <SpineShoulder>true</SpineShoulder>

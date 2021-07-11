@@ -3,6 +3,7 @@ using Microsoft.Kinect.Wpf.Controls;
 using SIVIRE_Rehabilita.Model;
 using System;
 using System.Collections.Generic;
+using System.Media;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -59,11 +60,15 @@ namespace SIVIRE_Rehabilita.UserControls
 
         private void Left_Click(object sender, RoutedEventArgs e)
         {
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             scrollViewer.ScrollToLeftEnd();
         }
 
         private void Right_Click(object sender, RoutedEventArgs e)
         {
+            SoundPlayer click_sound = new SoundPlayer(Properties.Resources.click);
+            click_sound.Play();
             scrollViewer.ScrollToRightEnd();
         }
 
