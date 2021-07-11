@@ -167,8 +167,8 @@
                 <StackPanel x:Name="progress_StackPanel" Visibility="Hidden" HorizontalAlignment="Left" Height="515" Margin="0,26.405,-189.2,0" VerticalAlignment="Top" Width="1550" Grid.Row="1">
                     <Label x:Name="progress_StackPanel_Label" Content="" Foreground="White" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,200,0,0"/>
                 </StackPanel>
-                <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
-                <Button x:Name="btn_Play" Visibility="Hidden" Style="{DynamicResource PlayButtonStyle}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
+                <Button x:Name="btn_Pause" Style="{DynamicResource PauseButtonStyleExercise}" VerticalAlignment="Top" Height="130" Width="130" Click="Pause_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
+                <Button x:Name="btn_Play" Visibility="Hidden" Style="{DynamicResource PlayButtonStyleExercise}" VerticalAlignment="Top" Height="130" Width="130" Click="Resume_Click" HorizontalAlignment="Right" Margin="0,95.6,4,0" Grid.Row="1" />
                 <Button x:Name="btn_Back" Style="{DynamicResource BackButtonExerciseStyle}" VerticalAlignment="Top" Height="130" Click="Back_Click" Margin="0,93,4,0" Grid.RowSpan="2" HorizontalAlignment="Right" Width="130" />
                 <StackPanel x:Name="confirmRegion" Visibility="Hidden" HorizontalAlignment="Left" Width="1621" Margin="0,-53,-260.2,-178" Background="#E52B98CE" Grid.RowSpan="2">
                     <StackPanel  Height="597" Margin="0,150,50,0" Background="#E5005572" HorizontalAlignment="Center" Width="1157" VerticalAlignment="Center">
